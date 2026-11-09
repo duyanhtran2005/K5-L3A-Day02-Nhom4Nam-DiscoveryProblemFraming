@@ -5,7 +5,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm: 4Nam
+- Tên nhóm: Nhom4Nam
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Trưởng nhóm mất thời gian xác định đúng đầu ra từng checkpoint từ nhiều file hướng dẫn trước khi lên kế hoạch và phân công bài lab.
 - Quyết định cuối: Go — thử nghiệm ở phạm vi nhỏ (pilot).

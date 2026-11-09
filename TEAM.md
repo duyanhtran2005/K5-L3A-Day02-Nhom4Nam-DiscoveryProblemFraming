@@ -4,16 +4,16 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm: 4Nam
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: Nhom4Nam
+- Candidate problem nhóm chọn (1 câu): Khi đọc đề lab có nhiều file, tôi cần xác định đúng đầu ra từng checkpoint để lập kế hoạch và phân công
+- Quyết định cuối (Go / Not Yet / No-Go): Go
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Trần Anh Duy | 2A202603494 | | https://github.com/duyanhtran2005 |
-| 2 | Nguyễn Nhựt Linh | 2A202603492 | | https://github.com/codenhenhe |
+| 2 | Nguyễn Nhựt Linh | 2A202603492 | Phụ trách và hoàn thiện CP6 | https://github.com/codenhenhe |
 | 3 | Trần Dương Trung Tính | 2A202603488 | Phụ trách rà soát và hoàn thiện CP5 | https://github.com/trngtnh |
 | 4 | Trương Lợi Vĩ | 2A202603441 | | https://github.com/ViTL-AI26 |
 
@@ -30,8 +30,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP4 — Research | | | Bảng research có link |
 | CP5 — Quy trình trước/sau | Trần Dương Trung Tính | | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Trần Dương Trung Tính | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Nhựt Linh | | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Nguyễn Nhựt Linh | | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
@@ -105,3 +105,33 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Khi rà soát CP5, cần kiểm tra mốc đo, điều kiện chất lượng và boundary trên cùng một phạm vi. Và cần phải phân biệt ước lượng và target với kết quả đã thử nghiệm.
+
+### NguyenNhutLinh-2A202603492
+
+**Phần việc phụ trách:**
+
+Phụ trách CP6:
+– Ma trận độ mơ hồ × độ phức tạp
+– So sánh 4 mức
+– AI Canvas rút gọn
+– Hai câu hỏi của Google PAIR
+– Quyết định (mục 8)
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Tham gia phân tích và so sánh các phương án No AI, Rule-based, Workflow và Agent dựa trên mức độ phức tạp và tính mơ hồ của vấn đề.
+- Tham gia xây dựng ma trận lựa chọn phương án và AI Canvas để xác định vai trò phù hợp của AI trong quy trình.
+- Đề xuất hướng Workflow có AI hỗ trợ, trong đó AI hỗ trợ tổng hợp và đối chiếu thông tin, còn con người kiểm tra và đưa ra quyết định cuối cùng.
+- Tham gia xác định các rủi ro theo Value, Usability, Feasibility và Viability; xây dựng tiêu chí đánh giá để kiểm chứng giải pháp.
+- Hoàn thiện Problem Statement v1 và phần quyết định Go cho một thử nghiệm quy mô nhỏ, kèm điều kiện dừng sau 1 tuần hoặc 5 lần thử nghiệm.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/team/group_report.md`: nội dung CP6, các phần 6–8 về lựa chọn hướng can thiệp AI, đánh giá rủi ro, Problem Statement v1 và quyết định.
+- Commit: [aa118cb](https://github.com/duyanhtran2005/K5-L3A-Day02-Nhom4Nam-DiscoveryProblemFraming/commit/aa118cb8059a2de265a2d60ad9c2ef38ad3cd699)
+
+**Điều mình học được từ phần nhóm:**
+
+- Việc lựa chọn giải pháp AI không nên bắt đầu từ việc tìm cách sử dụng Agent hay mô hình phức tạp nhất, mà cần xuất phát từ bản chất vấn đề và nhu cầu thực tế.
+- Không phải công đoạn nào cũng cần AI. Với hướng Workflow, AI có thể hỗ trợ xử lý thông tin và đề xuất kết quả, trong khi con người vẫn cần kiểm tra và chịu trách nhiệm với quyết định cuối cùng.
+- Một giải pháp chỉ thực sự có giá trị khi có tiêu chí đánh giá cụ thể, có thể kiểm chứng bằng thử nghiệm và có điều kiện dừng rõ ràng nếu không đạt kỳ vọng.

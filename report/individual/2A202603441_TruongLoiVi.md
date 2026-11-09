@@ -238,21 +238,51 @@ Theo dõi phản hồi và cập nhật tiến độ
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Qua việc lắng nghe top 3 problems của các thành viên, tôi nhận ra rằng cùng một môi trường học tập và nghiên cứu nhưng mỗi người có thể gặp những khó khăn rất khác nhau. Các vấn đề không chỉ xuất phát từ việc thực hiện một nhiệm vụ cụ thể mà còn liên quan đến quy trình, thời gian, chất lượng công việc và trải nghiệm của những người tham gia.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Điều tôi học được là không nên chỉ tập trung vào những vấn đề bản thân thường gặp mà cần quan sát nhiều nhóm đối tượng và nhiều công đoạn khác nhau. Một vấn đề có thể xuất hiện thường xuyên trong trải nghiệm cá nhân nhưng chưa chắc đã là vấn đề có mức độ ảnh hưởng lớn đối với những người khác. Vì vậy, việc lắng nghe các thành viên giúp mở rộng góc nhìn và tạo cơ sở để so sánh mức độ quan trọng của các vấn đề trước khi lựa chọn.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+### 6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Trong quá trình thực hiện Discovery & Problem Framing, tôi nhận thấy việc nghĩ đến giải pháp quá sớm là một rủi ro cần tránh, đặc biệt khi các vấn đề được đưa ra đều có khả năng ứng dụng AI. Khi nhìn thấy một công việc tốn thời gian hoặc có nhiều thao tác lặp lại, rất dễ nghĩ ngay đến việc xây dựng một công cụ AI để tự động hóa.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Tuy nhiên, cách tiếp cận của bài lab yêu cầu phải xác định rõ vấn đề trước khi lựa chọn công nghệ. Nhóm cần làm rõ ai là người gặp khó khăn, khó khăn xuất hiện trong hoàn cảnh nào, quy trình hiện tại diễn ra ra sao và hậu quả cụ thể là gì. Tôi hiểu rằng AI không nhất thiết là giải pháp phù hợp cho mọi vấn đề. Nếu quy trình hiện tại chưa được hiểu rõ hoặc nguyên nhân chưa được xác định, việc xây dựng giải pháp có thể chỉ giải quyết phần biểu hiện bên ngoài mà không xử lý đúng nhu cầu thực tế.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Có. Một lần thay đổi quan điểm đáng chú ý của tôi là trong quá trình xác định phạm vi Problem Statement. Ban đầu, tôi có xu hướng cho rằng sinh viên thường mất nhiều thời gian khi phải đọc và tìm kiếm thông tin trong các tài liệu hướng dẫn bài lab khác nhau. Vì vậy, vấn đề ban đầu được nhóm mô tả khá rộng, tập trung vào việc sinh viên phải đọc nhiều tài liệu trước khi bắt đầu thực hiện.
+
+Tuy nhiên, khi xem xét kết quả kiểm chứng, đặc biệt là tín hiệu từ Interview Snapshot C, tôi nhận ra rằng nhận định ban đầu chưa hoàn toàn chính xác. Người tham gia cho biết nếu README trình bày rõ ràng từng checkpoint thì việc thực hiện bài lab diễn ra khá nhanh và không gặp nhiều khó khăn. Điều này khiến tôi phải xem xét lại giả định rằng cứ có nhiều tài liệu hướng dẫn thì sinh viên đều gặp vấn đề.
+
+Từ đó, tôi nhận ra nguyên nhân không đơn thuần nằm ở số lượng tài liệu mà nằm ở cách thông tin được tổ chức và mức độ liên kết giữa các yêu cầu. Khó khăn thực sự xuất hiện khi sinh viên phải tự đọc, đối chiếu và tổng hợp thông tin từ nhiều nguồn để xác định nhiệm vụ, deliverables, thứ tự checkpoint và vị trí lưu hoặc nộp sản phẩm.
+
+Vì vậy, nhóm đã điều chỉnh Problem Statement theo hướng cụ thể hơn, tập trung vào những bài lab có nhiều checkpoint và yêu cầu được trình bày ở nhiều tài liệu hoặc vị trí khác nhau. Qua trải nghiệm này, tôi học được rằng cần sẵn sàng thay đổi nhận định ban đầu khi xuất hiện bằng chứng trái chiều, thay vì cố gắng tìm bằng chứng chỉ để củng cố quan điểm của mình.
+### 6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?
+
+Điều tôi nhận thấy trong quá trình kiểm chứng là bằng chứng ban đầu của một vấn đề không phải lúc nào cũng đủ mạnh để đưa ra kết luận chắc chắn. Trong các Problem Cards, một số thông tin chủ yếu xuất phát từ trải nghiệm và quan sát định tính; thời gian thực hiện một số công việc mới chỉ là ước tính, chưa phải số liệu được đo lường có hệ thống.
+
+Điều này giúp tôi nhận ra sự khác biệt giữa việc xác định một bottleneck và chứng minh bottleneck đó thực sự đáng ưu tiên. Một vấn đề có thể được mô tả rõ ràng nhưng vẫn cần thêm bằng chứng về tần suất, thời gian xử lý và tác động đối với người thực hiện. Vì vậy, tôi cho rằng kết quả kiểm chứng không chỉ nhằm xác nhận giả định ban đầu mà còn có thể chỉ ra những điểm chưa chính xác, những yếu tố bị bỏ sót hoặc những giới hạn của vấn đề.
+
+
+### 6.5. Điều khó nhất khi viết Problem Statement là gì?
+
+Điều khó nhất đối với tôi khi viết Problem Statement là chuyển một nhận xét hoặc trải nghiệm tương đối chung thành một mô tả vấn đề cụ thể, có đối tượng, bối cảnh và tác động rõ ràng. Ban đầu, một vấn đề có thể được diễn đạt theo hướng rất rộng, chẳng hạn một công việc mất nhiều thời gian hoặc một quy trình chưa hiệu quả. Tuy nhiên, cách mô tả này chưa cho biết chính xác ai đang gặp khó khăn, khó khăn xuất hiện ở bước nào và tại sao nó đáng được giải quyết.
+
+Bên cạnh đó, tôi cần tránh đưa giải pháp vào trong Problem Statement. Việc sử dụng AI, chatbot hoặc hệ thống tự động hóa không nên được xem là bản thân vấn đề. Thay vào đó, cần mô tả nhu cầu và khó khăn thực tế của người dùng trước. Tôi cũng nhận ra rằng các nhận định cần được phân biệt rõ giữa dữ liệu quan sát được, thời gian ước tính và những giả định vẫn cần xác minh. Đây là yếu tố quan trọng để Problem Statement không bị khái quát hóa hoặc đưa ra kết luận vượt quá bằng chứng hiện có.
+
+### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
+
+Nếu được thực hiện lại, tôi sẽ dành nhiều thời gian hơn cho việc thu thập và đánh giá bằng chứng ngay từ giai đoạn đầu. Thay vì chỉ mô tả một bottleneck dựa trên trải nghiệm, tôi sẽ cố gắng ghi nhận rõ quy trình hiện tại, thời gian thực hiện, tần suất xảy ra và tác động của vấn đề. Những thông tin chưa được đo lường cần được đánh dấu là ước tính hoặc giả định để tránh nhầm lẫn với dữ liệu thực tế.
+
+Tôi cũng muốn phản biện nhóm mạnh hơn ở ba điểm. Thứ nhất, liệu vấn đề được lựa chọn có thực sự quan trọng đối với người dùng hay chỉ là một bất tiện nhỏ? Thứ hai, bằng chứng hiện có đã đủ để chứng minh vấn đề hay vẫn chủ yếu dựa trên trải nghiệm cá nhân? Thứ ba, AI có thực sự cần thiết hay một phương pháp cải tiến quy trình thông thường đã có thể giải quyết vấn đề?
+
+Qua bài lab, tôi hiểu rằng việc lựa chọn đúng vấn đề quan trọng không kém việc xây dựng một giải pháp tốt. Một giải pháp có thể được triển khai bằng công nghệ hiện đại nhưng sẽ không tạo ra nhiều giá trị nếu vấn đề ban đầu chưa được xác định chính xác.
+
+### 6.7. Hiểu bài
+
+Vấn đề nhóm lựa chọn là trưởng nhóm mất thời gian xác định đúng và đầy đủ đầu ra của từng checkpoint từ nhiều file hướng dẫn trước khi lập kế hoạch và phân công bài lab. Quy trình hiện tại gồm đọc README và các tài liệu liên quan, đối chiếu yêu cầu giữa các checkpoint, xác định deliverables và vị trí lưu file, sau đó lập kế hoạch và phân công cho các thành viên. Bottleneck chính nằm ở bước đối chiếu thông tin giữa nhiều tài liệu, với baseline ước tính khoảng 40 phút cho toàn bộ quá trình chuẩn bị, trong đó khoảng 17 phút dành cho việc đối chiếu. Nhóm đặt mục tiêu giảm tổng thời gian xuống không quá 20 phút và thời gian đối chiếu xuống không quá 5 phút, đồng thời đánh giá số yêu cầu bị bỏ sót hoặc phân loại sai thông qua 5 lần thử nghiệm pilot. Boundary được giới hạn ở việc hỗ trợ các bài lab có nhiều checkpoint và nhiều tài liệu hướng dẫn; AI không được tự thêm yêu cầu, tự quyết định phân công hoặc đánh dấu hoàn thành mà phải cung cấp nguồn tham chiếu để trưởng nhóm kiểm tra. Nhóm lựa chọn mức can thiệp AI là Workflow, trong đó AI đọc và trích xuất thông tin từ README, CHECKPOINTS, worksheet và RUBRIC để tạo checklist có cấu trúc, còn trưởng nhóm chịu trách nhiệm xác minh và đưa ra quyết định cuối cùng. Sau khi đánh giá các rủi ro Value, Usability, Feasibility và Viability, nhóm quyết định Go để triển khai pilot ở phạm vi nhỏ, đo lường hiệu quả trước khi xem xét mở rộng.
 
 ---
 

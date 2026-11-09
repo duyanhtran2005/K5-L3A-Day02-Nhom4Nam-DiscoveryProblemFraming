@@ -8,7 +8,7 @@
 - Tên nhóm: 4Nam
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Trưởng nhóm mất thời gian xác định đúng đầu ra từng checkpoint từ nhiều file hướng dẫn trước khi lên kế hoạch và phân công bài lab.
-- Quyết định cuối: Go / Not Yet / No-Go
+- Quyết định cuối: Go — thử nghiệm ở phạm vi nhỏ (pilot).
 
 ---
 
@@ -27,7 +27,7 @@
 | 9 | Trần Dương Trung Tính (T3) | Khi nối trang danh sách quần áo với API, tôi cần hiểu request/response để hiển thị và xử lý đúng các trạng thái. | Người tích hợp frontend với API | Viết kết nối và xử lý trạng thái: dự kiến 120–180 phút; baseline tổng 1–2 ngày. | Chờ thông tin API hay viết kết nối mất thời gian hơn? |
 | 10 | Trương Lợi Vĩ (V1) | Khi chọn tài liệu nghiên cứu, tôi cần đánh giá nguồn công bố và phương pháp để chọn tài liệu đáng tin. | Người nghiên cứu | Đánh giá uy tín nguồn và phương pháp: ước tính 15 phút/bài hội nghị hoặc 30–60 phút/bài dài. | Bạn dùng tiêu chí nào để đánh giá bài báo? |
 | 11 | Trương Lợi Vĩ (V2) | Khi quản lý tài liệu tham khảo, tôi cần bổ sung metadata còn thiếu để danh mục chính xác. | Người nghiên cứu dùng Zotero | Tra lại nguồn để bổ sung metadata: ước tính 1–2 phút/tài liệu, chưa xác nhận là bước chậm nhất. | Lần gần nhất có bao nhiêu tài liệu thiếu metadata? |
-| 12 | Trương Lợi Vĩ (V3) | Khi theo dõi nhiệm vụ sinh viên, tôi cần xác định người chưa hoàn thành để nhắc đúng hạn. | Người quản lý/mentor; sinh viên nhận nhắc | Kiểm tra tiến độ và xác định người cần nhắc; chưa có số phút đo được. | Một đợt có bao nhiêu sinh viên cần nhắc? |
+| 12 | Trương Lợi Vĩ (V3) | Khi theo dõi nhiệm vụ sinh viên, tôi cần xác định người chưa hoàn thành để nhắc đúng hạn. | Người quản lý/mentor; sinh viên nhận nhắc nhở | Kiểm tra tiến độ và xác định người cần nhắc; chưa có số phút đo được. | Một đợt có bao nhiêu sinh viên cần nhắc? |
 
 ### 2.2. Cluster
 
@@ -49,7 +49,7 @@ OUTCOME ĐỀ XUẤT: Giảm thời gian sinh viên xác định đúng và đ�
 ```
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
-- “Tạo checklist tự động” và “AI đọc README giúp” là **phương án**, không phải pain ở tầng opportunity. Đây là ví dụ phân loại từ các giả thuyết trong card, **chưa khẳng định nhóm đã thực sự nêu rồi gạch bỏ**; sau buổi thảo luận, thay bằng ý nhóm đã gạch bỏ thật (nếu có).
+- “Tạo checklist tự động” và “AI đọc README giúp” là **phương án**, không phải pain ở tầng opportunity.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
@@ -105,33 +105,36 @@ Các câu hỏi được xây dựng theo nguyên tắc **The Mom Test**, tập 
 5. Đã dành khoảng bao lâu cho việc đọc, tìm kiếm và đối chiếu thông tin?
 6. Có lần nào việc hiểu hướng dẫn diễn ra nhanh chóng và không gặp khó khăn? Điều gì khác biệt so với những lần gặp khó khăn?
 7. Có từng phải sửa lại sản phẩm hoặc thay đổi cách làm vì hiểu thiếu hoặc nhầm yêu cầu không? Nếu có, chuyện gì đã xảy ra?
-#### Interview Snapshot A – Sinh viên thực hiện bài lab cá nhân
+#### Interview Snapshot A 
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Sinh viên thực hiện bài lab cá nhân |
+| Người được hỏi (vai trò, không ghi tên thật) | Học viên 1 — thành viên nhóm 2, khu vực 3 |
+| Thời điểm / cách hỏi | Sáng 09/11/2026, trong quá trình làm lab; phỏng vấn trực tiếp. |
 | Câu nói đáng nhớ nhất (nguyên văn) | "Em thường đọc README trước, nhưng khi mở worksheet thì lại thấy có thêm yêu cầu về định dạng và cách nộp bài. Em phải quay lại kiểm tra để chắc chắn không bỏ sót." |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi thực hiện một bài lab, người tham gia đọc README trước, sau đó mở worksheet và phát hiện thêm các yêu cầu chi tiết về định dạng và cách nộp sản phẩm. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Đọc lần lượt README và worksheet, ghi chú các đầu việc rồi quay lại đối chiếu thông tin giữa hai tài liệu. |
 | Mất bao lâu, bao lần? | Ước tính khoảng 15–20 phút để đọc và tổng hợp yêu cầu của bài lab. |
 | Insight / opportunity rút ra | Khi yêu cầu được trình bày ở nhiều tài liệu, sinh viên phải tự tổng hợp thông tin trước khi bắt đầu thực hiện. Có cơ hội hỗ trợ chuyển đổi nội dung từ nhiều nguồn thành danh sách yêu cầu thống nhất. |
 
-#### Interview Snapshot B – Sinh viên phụ trách điều phối nhóm
+#### Interview Snapshot B 
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Sinh viên phụ trách phân chia công việc trong nhóm |
+| Người được hỏi (vai trò, không ghi tên thật) | Học viên 2 — thành viên nhóm 1, khu vực 2 |
+| Thời điểm / cách hỏi | Sáng 09/11/2026, trong quá trình làm lab; phỏng vấn trực tiếp. |
 | Câu nói đáng nhớ nhất (nguyên văn) | "Em biết phần mình cần làm, nhưng đôi khi không chắc sản phẩm đó phải đưa vào file nào của nhóm. Em phải hỏi lại trưởng nhóm hoặc kiểm tra repository." |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi nhóm chuẩn bị thực hiện bài lab theo nhiều checkpoint, người tham gia cần xác định đầu ra của từng thành viên và vị trí lưu sản phẩm. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Đọc hướng dẫn, kiểm tra cấu trúc repository, hỏi thành viên khác và sử dụng nhóm chat hoặc danh sách công việc chung để thống nhất đầu ra. |
 | Mất bao lâu, bao lần? | Ước tính khoảng 10–15 phút để kiểm tra và xác nhận các yêu cầu liên quan đến việc phân chia công việc. |
 | Insight / opportunity rút ra | Khó khăn không chỉ liên quan đến việc đọc tài liệu mà còn có thể xuất phát từ việc chưa thống nhất cách phân công và vị trí lưu sản phẩm. Có cơ hội tích hợp thông tin về nhiệm vụ và đầu ra vào một checklist chung. |
 
-#### Interview Snapshot C – Sinh viên thực hiện bài lab nhiều checkpoint
+#### Interview Snapshot C 
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Sinh viên đã thực hiện bài lab có nhiều checkpoint |
+| Người được hỏi (vai trò, không ghi tên thật) | Học viên 3 — thành viên nhóm 2, khu vực 2 |
+| Thời điểm / cách hỏi | Sáng 09/11/2026, trong quá trình làm lab; phỏng vấn trực tiếp. |
 | Câu nói đáng nhớ nhất (nguyên văn) | "Nếu README ghi rõ từng checkpoint thì em làm khá nhanh. Nhưng có bài phải đọc nhiều phần mới biết checkpoint nào cần hoàn thành trước." |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi thực hiện bài lab có nhiều giai đoạn, người tham gia chưa xác định rõ thứ tự giữa các nhiệm vụ và phải đọc lại nhiều phần hướng dẫn. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Đọc các phần hướng dẫn, đối chiếu yêu cầu giữa các checkpoint, hỏi bạn cùng nhóm khi chưa rõ và tự lập danh sách công việc theo thứ tự. |
@@ -150,7 +153,7 @@ Các câu hỏi được xây dựng theo nguyên tắc **The Mom Test**, tập 
 
 **Nhận định tổng hợp:**
 
-- 3/3 người tham gia phỏng vấn mô phỏng mô tả ít nhất một hành vi tự xử lý hoặc xác nhận thông tin, chẳng hạn đọc nhiều tài liệu, ghi chú, kiểm tra repository, đối chiếu checkpoint hoặc hỏi thành viên khác.
+- 3/3 người tham gia phỏng vấn mô tả ít nhất một hành vi tự xử lý hoặc xác nhận thông tin, chẳng hạn đọc nhiều tài liệu, ghi chú, kiểm tra repository, đối chiếu checkpoint hoặc hỏi thành viên khác.
 - 2/3 người tham gia mô tả rõ việc phải tổng hợp hoặc xác nhận lại thông tin liên quan đến yêu cầu, checkpoint hoặc đầu ra.
 - 1/3 người tham gia đưa ra tín hiệu phản bác có điều kiện: khi README được tổ chức rõ ràng, việc xác định yêu cầu diễn ra nhanh và không tạo ra khó khăn đáng kể.
 - Chưa có bằng chứng đủ mạnh để kết luận rằng tình trạng này thường xuyên dẫn đến bỏ sót bài nộp hoặc phải làm lại sản phẩm.
@@ -435,7 +438,7 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Trung bình | Candidate D3 và L1 cho thấy hai thành viên gặp vấn đề tương tự. Tuy nhiên, mức độ phổ biến và baseline vẫn cần được kiểm chứng thêm với người dùng ngoài nhóm. |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Trung bình | Candidate D3, L1 và ba cuộc phỏng vấn cho thấy người học có lúc phải đọc, đối chiếu hoặc hỏi lại để xác định yêu cầu. Tuy nhiên, mẫu phỏng vấn còn nhỏ; một người cho biết khi README rõ thì khó khăn sẽ giảm. |
 | **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Thấp | Checklist có cấu trúc quen thuộc, trưởng nhóm có thể đối chiếu với tài liệu gốc và chỉnh sửa trước khi sử dụng. |
 | **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Thấp | Các tài liệu đầu vào đã tồn tại dưới dạng Markdown và có cấu trúc tương đối rõ. Có thể thử nghiệm bằng một quy trình AI đơn giản, chưa cần xây dựng Agent. |
 | **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Thấp | Phạm vi thử nghiệm nhỏ, có thể sử dụng công cụ AI hiện có. Trưởng nhóm chịu trách nhiệm kiểm tra và cập nhật checklist khi tài liệu thay đổi. |
@@ -472,14 +475,20 @@ Sử dụng một checklist Markdown thống nhất, tổng hợp sẵn yêu c�
 
 **Ngưỡng dừng:**
 
-Nếu sau 1 tuần hoặc 5 lần thử nghiệm, thời gian chuẩn bị vẫn trên 20 phút/lần hoặc AI liên tục bỏ sót, phân loại sai yêu cầu quan trọng, nhóm sẽ dừng Workflow và quay về phương án checklist thủ công kết hợp Rule để xử lý các thông tin cố định.
+Pilot kéo dài tối đa một tuần hoặc 5 lượt thử, tùy mốc nào đến trước. Nhóm dừng Workflow nếu có từ 2 lượt chuẩn bị vượt 20 phút, từ 2 lượt AI bỏ sót hoặc gán sai yêu cầu bắt buộc, hoặc chỉ 1 lượt checklist đã duyệt vẫn sai yêu cầu bắt buộc. Khi đó, nhóm quay về checklist thủ công kết hợp Rule và ghi lại nguyên nhân trước khi thử tiếp.
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- Nhóm đã phỏng vấn 3 sinh viên, nhưng mẫu còn nhỏ và chưa đại diện cho mọi bài lab. Một người cho biết khi README được tổ chức rõ, việc xác định yêu cầu diễn ra nhanh hơn.
+- Mốc 40 phút chuẩn bị và 17 phút đối chiếu là tự ước lượng từ card D3; nhóm chưa bấm giờ từng bước theo cùng mốc bắt đầu và kết thúc.
+- Ba cuộc phỏng vấn ghi nhận việc đọc chéo tài liệu, kiểm tra repository hoặc hỏi lại, nhưng chưa đủ bằng chứng để kết luận người học thường xuyên bỏ sót đầu ra hoặc phải làm lại bài.
+- Workflow có AI, ngân sách mục tiêu 19 phút và khả năng tạo checklist đầy đủ vẫn chưa được thử nghiệm. Nhóm chưa biết cách này có tốt hơn checklist thủ công sau khi tính cả thời gian kiểm tra và sửa lỗi hay không.
+- Bước tiếp theo: thử trên cùng một bộ tài liệu lab bằng hai cách — checklist thủ công và Workflow có AI. Bấm giờ từ lúc mở hướng dẫn đến khi hoàn tất phân công; đối chiếu từng đầu ra bắt buộc với tài liệu gốc, ghi lỗi thiếu/sai và thời gian sửa. Sau 5 lần thử, nhóm cập nhật mức rủi ro và quyết định tiếp tục hay quay về cách thủ công theo ngưỡng dừng ở mục 8.
 
 ## 10. Tài liệu tham khảo
 
--
+- Teresa Torres (2023), [Opportunity Solution Trees](https://www.producttalk.org/opportunity-solution-trees/) - phương pháp xây cây outcome và opportunity ở CP3.
+- Rob Fitzpatrick, [The Mom Test](https://www.momtestbook.com/) - nguyên tắc phỏng vấn về hành vi đã xảy ra ở CP4.
+- Anthropic (2024), [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) - phân biệt Workflow và Agent ở CP6.

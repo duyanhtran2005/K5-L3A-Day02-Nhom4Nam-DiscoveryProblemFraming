@@ -74,15 +74,12 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Xây dựng 3 Interview Snapshots, tổng hợp hành vi xử lý, workaround, thời gian ước tính và insight tương ứng.
 - Tổng hợp các tín hiệu xác nhận và phản bác, từ đó điều chỉnh Problem Statement theo hướng tập trung vào khó khăn trong việc tổng hợp yêu cầu, checkpoint và deliverables từ nhiều nguồn tài liệu.
 - Nghiên cứu và so sánh 3 giải pháp: Gemini Notebook, ChatGPT Projects và GitHub Classroom; phân tích điểm mạnh, khoảng trống và bài học có thể áp dụng.
-- Đề xuất định hướng **AI-powered Lab Requirement Assistant**, tập trung vào trích xuất checkpoint, nhiệm vụ, deliverables và tạo checklist có dẫn chiếu đến tài liệu nguồn.
+- Đề xuất định hướng AI-powered Lab Requirement Assistant, tập trung vào trích xuất checkpoint, nhiệm vụ, deliverables và tạo checklist có dẫn chiếu đến tài liệu nguồn.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
 - `group_report.md`: Mục 3.1 – Assumption Map.
 - `group_report.md`: Mục 3.2 – Kiểm chứng, bao gồm phương pháp, bộ câu hỏi phỏng vấn, Interview Snapshots, Summary of Verification và Problem Adjustment.
 - `group_report.md`: Mục 3.3 – Research giải pháp đã có, bảng so sánh công cụ và định hướng giải pháp.
-- `report/assets/`: Các file Interview Snapshot A, B và C (nếu được tách thành file riêng).
-- Git commit: Bổ sung mã commit sau khi kiểm tra lịch sử commit trên repository.
 
 **Điều mình học được từ phần nhóm:**
 
@@ -91,7 +88,6 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Nhận thức được rằng cần xem xét cả tín hiệu xác nhận và phản bác, thay vì chỉ tìm kiếm bằng chứng ủng hộ ý tưởng ban đầu.
 - Biết cách thu hẹp Problem Statement dựa trên các tín hiệu kiểm chứng, tránh mô tả vấn đề quá rộng.
 - Cải thiện khả năng nghiên cứu, so sánh các giải pháp hiện có và xác định khoảng trống để định hướng một giải pháp phù hợp với nhu cầu người dùng.
--
 
 ### TranDuongTrungTinh-2A202603488
 

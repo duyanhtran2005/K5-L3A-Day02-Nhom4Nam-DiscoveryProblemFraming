@@ -151,16 +151,16 @@ Khi ghi nhận thực tế, dùng thời điểm bắt đầu/kết thúc để 
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Tôi trình bày 3 card đã chọn ở CP2: sửa lỗi responsive trang danh sách sách, xử lý lỗi tổng tiền giỏ hàng và tích hợp API cho trang danh sách quần áo. | Đóng góp các candidate T1, T2, T3 vào danh sách 12 candidate của nhóm để so sánh và gom nhóm. |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | Tôi tiếp nhận bản CP4 từ bạn phụ trách, cung cấp bản này để đối chiếu với CP5 và xác nhận các snapshot A–C là phỏng vấn người thật. | CP5 sử dụng kết quả kiểm chứng của nhóm; các mốc thời gian khác phạm vi được tách riêng thay vì gộp thành một baseline. |
-| Quy trình nhóm | Tôi phụ trách rà soát và hoàn thiện CP5, đối chiếu CP3–CP4 và tính đủ các bước chuẩn bị, kiểm tra, phân công. | Mục 4 có quy trình trước/sau, actor, input, output, thời gian, điểm kiểm tra của con người và phương án quay về. |
-| Problem Statement | Tôi yêu cầu thống nhất mốc đo giữa sơ đồ và v0, bổ sung đầy đủ các quyền AI không được tự thực hiện và người chịu trách nhiệm kiểm nguồn. Tôi xác nhận nhóm đồng ý các phản biện đã nêu. | Mốc đo kết thúc khi phân công xong và thành viên xác nhận tiếp nhận; Boundary v0 thống nhất với quy trình tương lai. |
-| Mức can thiệp AI | Trong CP5, tôi rà soát vị trí các bước Rule, AI. | Quy trình thể hiện AI tạo nháp, các bước kiểm tra cố định và bước người dùng duyệt trước khi phân công. |
-| Quyết định | | |
+| Pitch Problem Card | Tôi trình bày 3 card về responsive, lỗi tổng tiền giỏ hàng và tích hợp API. | Đóng góp T1–T3 vào 12 candidate của nhóm. |
+| Phản biện bài của bạn khác | Tôi đặt câu hỏi và trao đổi với các bạn trong lớp khi trình bày problem. | Tham gia trao đổi về các candidate trước khi nhóm chọn vấn đề chung. |
+| Nhận phản biện | Tôi tiếp nhận phản biện của AI khi rà soát CP2 và CP5. | Làm rõ phạm vi xử lý bug, thống nhất mốc đo và bổ sung Boundary. |
+| Gom cluster / cây OST | Tôi cung cấp các card T1–T3 để nhóm gom candidate. | Ba card được xếp vào cluster D — Xử lý lỗi và tích hợp kỹ thuật. |
+| Chọn candidate problem | Tôi dùng candidate D3 đã được nhóm chọn làm căn cứ triển khai CP5. | CP5 bám vấn đề xác định yêu cầu, đầu ra và phân công bài lab. |
+| Kiểm chứng / research | Tôi tiếp nhận CP4 từ bạn phụ trách và đối chiếu với CP5. | Tách các mốc thời gian khác phạm vi, dùng đúng kết quả kiểm chứng của nhóm. |
+| Quy trình nhóm | Tôi phụ trách hoàn thiện CP5, rà soát actor, input, output, thời gian và bước bàn giao. | Hoàn thành quy trình trước/sau, bảng so sánh, bước người duyệt và phương án quay về. |
+| Problem Statement | Tôi yêu cầu thống nhất mốc đo và đưa đầy đủ giới hạn AI vào Boundary v0. | Metric tính đến lúc phân công xong và thành viên xác nhận tiếp nhận; Boundary khớp quy trình. |
+| Mức can thiệp AI | Tôi rà soát vị trí Rule, AI và con người trong CP5. | AI tạo nháp; người dùng kiểm nguồn và duyệt trước khi phân công. |
+| Quyết định | Tôi đối chiếu phần CP5 và giải thích 6.7 với kết luận Go/pilot của nhóm. | Giữ đúng phạm vi thử nghiệm nhỏ và phương án quay về checklist thủ công. |
 
 ---
 
@@ -168,46 +168,46 @@ Khi ghi nhận thực tế, dùng thời điểm bắt đầu/kết thúc để 
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Nhờ AI gợi ý và soạn bản nháp 5 vấn đề trong công việc lập trình website để tôi rà soát. | Giúp chuyển từ ví dụ PM sang bối cảnh làm web bán sách và bán quần áo. | AI từng đề xuất các chi tiết case trước khi hỏi lại tôi và có lúc tự thay đổi bố cục template. | Tôi cung cấp 5 mốc thời gian ước lượng, xác nhận 3 case đưa vào CP2 đã từng làm, giới hạn chủ đề vào lập trình website và yêu cầu giữ nguyên khung mẫu. |
-| CP2 Problem Card | Nhờ AI soạn bản nháp 3 card, gợi ý quy trình và phản biện phạm vi, thời gian, mức can thiệp. | Giúp phân biệt tổng thời gian với thời gian từng bước và làm rõ phương án không dùng AI. | AI từng hiểu 3–4 giờ là chỉ tái hiện lỗi, thu hẹp tích hợp API vào dữ liệu ảnh và thêm mục ngoài template. Các khoảng thời gian từng bước vẫn là tham khảo. | Tôi xác nhận 3–4 giờ là toàn bộ xử lý bug và các baseline đều gồm chờ nếu có; yêu cầu đồng bộ CP1–CP2, sửa phạm vi card API và giữ đúng template. |
-| CP4 Research | | | | |
-| CP5 Quy trình | Hỗ trợ biểu diễn dữ liệu CP3–CP4 thành sơ đồ và bảng trước/sau, rà soát sự nhất quán với template. | Giúp thể hiện rõ actor, đầu vào, đầu ra, vị trí kiểm tra và phương án quay về. | AI từng đánh giá CP5 hoàn chỉnh khi mốc đo và Boundary v0 còn chưa nhất quán; đã có lúc tự thêm mục ngoài khung. | Xác nhận bối cảnh phỏng vấn, yêu cầu đọc lại rule, giữ đúng bố cục và chỉnh các điểm chưa nhất quán trước khi push. |
-| CP5–6 Problem Statement | Hỗ trợ chuyển các ý đã có ở CP3–CP4 vào mẫu v0 và phản biện metric, Boundary. | Chỉ ra khác biệt giữa mốc kết thúc ở sơ đồ và trong metric, cùng các quyền hạn chưa được ghi đầy đủ. | Mô tả ban đầu chưa thống nhất việc có tính bước phân công; Boundary v0 ngắn hơn các giới hạn đã có ở mục 4.2. | Tôi yêu cầu dùng một mốc đo đến khi phân công xong và thành viên xác nhận tiếp nhận, bổ sung giới hạn AI không tự sửa tài liệu, phân công, gửi thông báo hoặc nộp bài. |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý và soạn nháp bảng scan để tôi rà soát. | Hệ thống hóa vấn đề theo bối cảnh làm web. | Một số chi tiết case vượt thông tin tôi cung cấp. | Tôi chọn phạm vi web, xác nhận case và bổ sung thời gian. |
+| CP2 Problem Card | Soạn nháp và phản biện 3 card. | Làm rõ quy trình, metric và phương án không dùng AI. | Từng hiểu sai phạm vi 3–4 giờ xử lý bug và thu hẹp case API vào ảnh. | Tôi sửa phạm vi, thống nhất cách tính thời gian và giữ đúng template. |
+| CP4 Research | CP4 do bạn khác phụ trách; tôi dùng kết quả cho CP5. | Hỗ trợ đối chiếu phạm vi vấn đề và số liệu. | Không áp dụng cho phần tôi trực tiếp phụ trách. | Tôi tách các mốc phỏng vấn theo đúng phạm vi công việc. |
+| CP5 Quy trình | Hỗ trợ lập sơ đồ, bảng trước/sau và kiểm tra tính nhất quán. | Thể hiện rõ điểm kiểm tra và phương án quay về. | Từng kết luận hoàn chỉnh khi mốc đo và Boundary còn lệch nhau. | Tôi yêu cầu đọc lại rule, kiểm tra từng mục và sửa trước khi push. |
+| CP5–6 Problem Statement | Hỗ trợ chuyển ý đã có vào mẫu v0 và phản biện metric, Boundary. | Phát hiện mốc kết thúc chưa thống nhất. | Boundary v0 ban đầu thiếu một số giới hạn đã có ở quy trình. | Tôi thống nhất mốc đo và bổ sung quyền AI không được tự thực hiện. |
+| CP6 Mức can thiệp / quyết định | CP6 do bạn khác phụ trách; tôi đối chiếu kết quả với CP5 và 6.7. | Giữ nhất quán với lựa chọn Workflow và Go/pilot. | Không áp dụng cho phần tôi trực tiếp phụ trách. | Tôi trình bày đúng quyết định và phạm vi thử nghiệm của nhóm. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.** Nội dung trả lời dưới đây là bản nháp do AI hỗ trợ để tôi tham khảo và tự viết lại theo trải nghiệm trước khi nộp.
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.** Có sử dụng AI hỗ trợ soạn nháp và rà soát.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Qua các Problem Card của các bạn, tôi thấy kinh nghiệm của mỗi người giúp nhóm nhìn ra những vấn đề khác nhau. Tôi trình bày các vấn đề từ việc làm web bán sách và bán quần áo, còn nhóm ghi nhận thêm khó khăn khi đọc đề, bàn giao công việc và quản lý tài liệu. Điều tôi rút ra là một vấn đề quen thuộc với mình chưa chắc phù hợp nhất để cả nhóm kiểm chứng trong thời gian lab. Tôi cần nhìn thêm actor, phạm vi và dữ liệu có thể thu thập.
+Các card của các bạn giúp tôi nhìn vấn đề ngoài kinh nghiệm làm web. Tôi đóng góp ba case kỹ thuật, còn nhóm chọn khó khăn khi tổng hợp yêu cầu lab vì phù hợp để cùng kiểm chứng. Tôi học được rằng cần chọn problem theo actor, phạm vi và dữ liệu, thay vì chỉ theo mức độ quen thuộc.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Trong phần research CP4, nhóm đã có định hướng về công cụ tổng hợp yêu cầu bằng AI. Tôi thấy cần giữ rõ bước tìm hiểu vấn đề trước khi chốt cách giải quyết. Ở phần CP5 mình phụ trách, tôi tập trung rà quy trình hiện tại, đầu ra từng bước và phần việc trưởng nhóm vẫn phải tự kiểm tra. Tôi giữ phương án quay về checklist thủ công để nhóm có cách xử lý khi bản tổng hợp sai hoặc công cụ gặp lỗi.
+Trong CP4, nhóm đã đề xuất hướng công cụ tổng hợp yêu cầu bằng AI. Khi làm CP5, tôi tập trung vào quy trình hiện tại, bottleneck và phần việc con người kiểm tra trước khi sử dụng kết quả. Tôi giữ phương án checklist thủ công làm cách quay về khi bản tổng hợp sai hoặc công cụ gặp lỗi.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Ban đầu tôi chủ yếu kiểm tra xem báo cáo đã điền đủ các mục hay chưa. Khi rà soát kỹ hơn, tôi đồng ý rằng đủ ô chưa có nghĩa là nội dung đã nhất quán. Sơ đồ và Success Metric từng dùng hai cách diễn đạt khác nhau về mốc kết thúc. Tôi yêu cầu sửa cả hai về thời điểm phân công xong và thành viên xác nhận tiếp nhận, đồng thời đưa các giới hạn đã có trong quy trình vào đúng ô Boundary của v0.
+Tôi thay đổi từ kiểm tra báo cáo đã đủ ô sang kiểm tra nội dung có nhất quán hay không. Khi sơ đồ và metric dùng hai mốc kết thúc khác nhau, tôi yêu cầu thống nhất đến lúc phân công xong và thành viên xác nhận tiếp nhận. Tôi cũng bổ sung đầy đủ giới hạn AI vào Boundary v0.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Điểm đáng chú ý từ CP4 là không phải người nào cũng mất nhiều thời gian khi đọc hướng dẫn. Một người cho biết nếu README rõ thì việc xác định yêu cầu diễn ra nhanh. Các mốc 10–20 phút trong phỏng vấn cũng đo những phần việc khác với tổng 40 phút của D3. Khi tiếp nhận kết quả từ bạn phụ trách CP4 để hoàn thiện CP5, tôi yêu cầu giữ riêng các phạm vi này. Tôi không dùng chúng để khẳng định mọi sinh viên đều gặp cùng mức độ khó khăn.
+CP4 cho thấy người học có thể xác định yêu cầu nhanh khi README rõ. Các khoảng 10–20 phút trong phỏng vấn đo những phần việc khác với tổng 40 phút của D3. Tôi giữ riêng các phạm vi này khi hoàn thiện CP5 để sử dụng đúng kết quả kiểm chứng và số liệu.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-Khó nhất với tôi khi rà soát Problem Statement là giữ cùng một phạm vi giữa quy trình, baseline, target và boundary. Tôi phải làm rõ tổng thời gian có tính phần phân công hay không, ai chịu trách nhiệm kiểm kết quả và AI được làm đến đâu. Tôi cũng phân biệt 40 phút là ước lượng từ D3, còn 19 phút là ngân sách mục tiêu của phương án mới. Nếu viết hai loại số này như kết quả đã đo thì báo cáo sẽ thiếu chính xác.
+Khó nhất là giữ cùng phạm vi giữa quy trình, baseline, target và Boundary. Tôi làm rõ bước phân công có nằm trong tổng thời gian, ai kiểm kết quả và AI được làm đến đâu. Tôi phân biệt 40 phút là ước lượng D3, còn 19 phút là ngân sách mục tiêu của phương án mới.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Nếu làm lại, tôi sẽ thống nhất mốc bắt đầu, kết thúc và cách ghi thời gian ngay khi nhóm chọn candidate. Tôi cũng muốn nhóm thử checklist thủ công trước để có cơ sở so sánh với phương án có AI. Khi phản biện, tôi sẽ hỏi rõ ai kiểm tra, dùng nguồn nào và phải làm gì nếu thiếu thông tin. Tôi sẽ kiểm tra bố cục và sự thống nhất giữa các phần sớm hơn, thay vì chờ đến lúc chuẩn bị push mới rà lại.
+Nếu làm lại, tôi sẽ thống nhất mốc đo và ghi thời gian từng bước ngay từ lúc chọn candidate. Tôi sẽ ưu tiên thử checklist thủ công để có cơ sở so sánh. Tôi cũng sẽ rà soát trách nhiệm kiểm nguồn, điều kiện chất lượng và sự nhất quán giữa các phần trước khi tổng hợp báo cáo.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-Trưởng nhóm chịu trách nhiệm tổng hợp yêu cầu từ nhiều file. Việc này được thực hiện trước khi phân công bài lab dựa trên quy trình xác định nguồn, đọc checkpoint, đối chiếu yêu cầu, ghi đầu ra và phân công, nhằm giải quyết bottleneck đối chiếu nhiều tài liệu. Mục tiêu CP5 đặt target hoàn thành dưới 20p với ngân sách thiết kế 19p, tính từ lúc bắt đầu cho đến khi phân công xong và thành viên xác nhận tiếp nhận. Về giới hạn thì AI chỉ đóng vai trò tạo nháp, trưởng nhóm phải kiểm toàn bộ nguồn trước khi sử dụng. Đồng thời AI tuyệt đối không tự sửa tài liệu, tự động phân công hay nộp bài. Nhóm đã lựa chọn mức can thiệp là workflow, kết hợp các bước cố định với tính năng trích xuất bằng AI và sự phê duyệt trực tiếp từ người dùng. Dự án quyết định Go ở phạm vi pilot, với điều kiện nếu sau 1 tuần hoặc 5 lượt mà thời gian thực tế vẫn vượt quá 20 phút mỗi lượt, hoặc AI liên tục bỏ sót và phân loại sai các yêu cầu quan trọng, nhóm sẽ lập tức quay về phương pháp checklist thủ công.
+Nhóm tập trung vào việc trưởng nhóm tổng hợp yêu cầu từ nhiều file trước khi phân công bài lab. Quy trình gồm xác định nguồn, đọc checkpoint, đối chiếu yêu cầu, ghi đầu ra và phân công. Bottleneck là đối chiếu tài liệu, ước lượng 17 phút trong tổng 40 phút của D3. CP5 đặt target dưới 20 phút với ngân sách 19 phút, đo từ mở hướng dẫn đến khi phân công xong và thành viên xác nhận tiếp nhận. AI chỉ tạo nháp, trưởng nhóm kiểm toàn bộ nguồn trước khi dùng; AI không tự sửa tài liệu, phân công hoặc nộp bài. Nhóm chọn Workflow kết hợp bước cố định, AI trích xuất và người dùng duyệt. Quyết định là Go/pilot; sau 1 tuần hoặc 5 lượt, nếu vẫn trên 20 phút/lượt hoặc AI liên tục bỏ sót, phân loại sai yêu cầu quan trọng thì quay về checklist thủ công.
 
 ---
 

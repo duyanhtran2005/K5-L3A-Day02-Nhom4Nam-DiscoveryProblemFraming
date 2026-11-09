@@ -7,66 +7,63 @@
 
 - Tên nhóm: 4Nam
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
+- Candidate problem được chọn (1 câu): Trưởng nhóm mất thời gian xác định đúng đầu ra từng checkpoint từ nhiều file hướng dẫn trước khi lên kế hoạch và phân công bài lab.
 - Quyết định cuối: Go / Not Yet / No-Go
 
 ---
 
-## 2. Hội tụ nhóm (CP3)
-
 ### 2.1. Pitch
 
-| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
+| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện gợi ý |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Trần Anh Duy (D1) | Khi đồng nghiệp tiếp nhận phần việc tôi bàn giao, họ cần biết trạng thái và cách dùng để tiếp tục mà không phải hỏi lại. | Đồng nghiệp tiếp nhận; thực tập sinh bàn giao | Giải thích lại gần 30 phút/lần; CP1 ghi gần 10 lần hỏi. | Đồng nghiệp hỏi lại vì thiếu thông tin gì? |
+| 2 | Trần Anh Duy (D2) | Khi vắng họp, tôi cần nắm nội dung, quyết định và việc tiếp theo để tiếp tục phần mình. | Thành viên vắng họp | Đọc và ghép thông tin rời rạc khoảng 8 phút, là phân bổ trong tổng 20–30 phút và cần xác nhận. | Bước nào mất nhiều thời gian nhất khi bắt kịp buổi họp? |
+| 3 | Trần Anh Duy (D3) | Khi đọc đề lab có nhiều file, tôi cần xác định đúng đầu ra từng checkpoint để lập kế hoạch và phân công. | Trưởng nhóm; học viên nhận việc | Đối chiếu yêu cầu giữa các file khoảng 17 phút trong tổng 40 phút; phân bổ cần xác nhận. | 17 phút đối chiếu là số đo hay ước lượng? |
+| 4 | Nguyễn Nhựt Linh (L1) | Khi bắt đầu Codelab nhiều giai đoạn, tôi cần nắm đủ nhiệm vụ và deliverable để làm đúng trọng tâm. | Sinh viên làm Codelab | Đọc và đối chiếu README/tài liệu, khoảng 15 phút hoặc hơn. | README đã đủ để biết việc cần làm chưa? |
+| 5 | Nguyễn Nhựt Linh (L2) | Khi học công nghệ AI mới, tôi cần tổng hợp các nguồn đáng tin để hiểu đúng và áp dụng. | Sinh viên học AI | Tìm, đọc, chọn lọc nhiều nguồn, khoảng 30 phút/chủ đề. | Làm sao biết bản tổng hợp đúng với nguồn? |
+| 6 | Nguyễn Nhựt Linh (L3) | Khi tích hợp LLM API gặp lỗi, tôi cần xác định nguyên nhân và khắc phục để tiếp tục thử nghiệm. | Sinh viên/lập trình viên dùng LLM API | Đọc log, tìm nguyên nhân, sửa cấu hình: khoảng 15–30 phút/sự cố; CP1 ghi khoảng 5 lần lỗi. | Loại lỗi nào xảy ra nhiều nhất? |
+| 7 | Trần Dương Trung Tính (T1) | Khi trang danh sách sách tràn ngang trên điện thoại, tôi cần tìm phần tử gây lỗi để sửa trước bàn giao. | Người làm giao diện web | Đối chiếu chiều rộng thẻ sách và vùng chứa: dự kiến 65 phút trong tổng khoảng 180 phút. | Tìm phần tử gây tràn có thật là bước chậm nhất không? |
+| 8 | Trần Dương Trung Tính (T2) | Khi tổng tiền giỏ hàng không đổi sau khi tăng số lượng, tôi cần tái hiện và tìm nguyên nhân để sửa trước bàn giao. | Người xử lý lỗi web bán quần áo | Kiểm tra luồng số lượng, giá và tổng tiền: dự kiến 45–55 phút trong tổng 3–4 giờ. | Lỗi tổng tiền còn tái hiện được không? |
+| 9 | Trần Dương Trung Tính (T3) | Khi nối trang danh sách quần áo với API, tôi cần hiểu request/response để hiển thị và xử lý đúng các trạng thái. | Người tích hợp frontend với API | Viết kết nối và xử lý trạng thái: dự kiến 120–180 phút; baseline tổng 1–2 ngày. | Chờ thông tin API hay viết kết nối mất thời gian hơn? |
+| 10 | Trương Lợi Vĩ (V1) | Khi chọn tài liệu nghiên cứu, tôi cần đánh giá nguồn công bố và phương pháp để chọn tài liệu đáng tin. | Người nghiên cứu | Đánh giá uy tín nguồn và phương pháp: ước tính 15 phút/bài hội nghị hoặc 30–60 phút/bài dài. | Bạn dùng tiêu chí nào để đánh giá bài báo? |
+| 11 | Trương Lợi Vĩ (V2) | Khi quản lý tài liệu tham khảo, tôi cần bổ sung metadata còn thiếu để danh mục chính xác. | Người nghiên cứu dùng Zotero | Tra lại nguồn để bổ sung metadata: ước tính 1–2 phút/tài liệu, chưa xác nhận là bước chậm nhất. | Lần gần nhất có bao nhiêu tài liệu thiếu metadata? |
+| 12 | Trương Lợi Vĩ (V3) | Khi theo dõi nhiệm vụ sinh viên, tôi cần xác định người chưa hoàn thành để nhắc đúng hạn. | Người quản lý/mentor; sinh viên nhận nhắc | Kiểm tra tiến độ và xác định người cần nhắc; chưa có số phút đo được. | Một đợt có bao nhiêu sinh viên cần nhắc? |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A — Hiểu yêu cầu lab | D3, L1 | Đầu việc và đầu ra nằm ở nhiều file; người học phải đọc, đối chiếu rồi mới bắt đầu làm. Hai card cùng pattern nhưng phạm vi đo khác nhau: Duy ghi 40 phút từ mở tài liệu đến bắt tay làm, Linh ghi khoảng 15 phút để nắm yêu cầu chính. |
+| B — Tìm và đánh giá tri thức | L2, V1, V2 | Tìm, đối chiếu hoặc xác minh thông tin từ nhiều nguồn trước khi dùng cho học tập/nghiên cứu. V2 hẹp hơn và liên quan metadata thư mục. |
+| C — Chuyển giao và theo dõi việc | D1, D2, V3 | Thông tin về trạng thái, quyết định, việc tiếp theo hoặc người cần nhắc chưa đến đúng người ở đúng thời điểm. |
+| D — Xử lý lỗi và tích hợp kỹ thuật | L3, T1, T2, T3 | Người làm kỹ thuật phải khoanh vùng lỗi hoặc đối chiếu dữ liệu/cấu hình trước khi sửa và kiểm tra lại. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
-Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
-
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME ĐỀ XUẤT: Giảm thời gian sinh viên xác định đúng và đủ đầu ra của một bài lab,
+                  từ lúc mở hướng dẫn đến lúc sẵn sàng bắt đầu, không bỏ sót yêu cầu.
+├── Opportunity A: Yêu cầu và đầu ra nằm rải ở nhiều file hoặc nhiều giai đoạn.
+├── Opportunity B: Người học phải tự đối chiếu hướng dẫn, worksheet và tiêu chí chấm.
+└── Opportunity C: Khó biết mục nào phải làm cá nhân, mục nào làm nhóm và ghi vào file nào.
 ```
-
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- “Tạo checklist tự động” và “AI đọc README giúp” là **phương án**, không phải pain ở tầng opportunity. Đây là ví dụ phân loại từ các giả thuyết trong card, **chưa khẳng định nhóm đã thực sự nêu rồi gạch bỏ**; sau buổi thảo luận, thay bằng ý nhóm đã gạch bỏ thật (nếu có).
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| Hiểu yêu cầu/đầu ra lab (D3) | 5 | 5 | 4 | 4 | 5 | 5 | 5 | **33** |
+| Xử lý lỗi LLM API (L3) | 5 | 5 | 4 | 4 | 4 | 5 | 4 | **31** |
+| Đồng nghiệp hỏi lại sau bàn giao (D1) | 5 | 4 | 4 | 5 | 3 | 4 | 3 | **28** |
 
-**Candidate được chọn:**
+**Candidate được chọn:** Khi đọc đề lab có nhiều file, trưởng nhóm phải xác định đúng đầu ra từng checkpoint để lên kế hoạch và phân công trước khi bắt đầu.
 
-**Vì sao chọn:**
+**Vì sao chọn:** Trong 12 card, D3 có actor, quy trình 5 bước, baseline tổng 40 phút và bước nghẽn dự kiến (khoảng 17 phút) đủ cụ thể để phân tích; L1 cho thấy một thành viên khác cũng gặp pattern này. Có thể hỏi sinh viên nhóm khác ngay trong buổi lab và thử cả hướng không dùng AI.
 
-**Vì sao loại các candidate còn lại:**
+**Vì sao tạm không chọn hai candidate shortlist còn lại:** Lỗi LLM API có bằng chứng lặp lại nhưng nhiều nguyên nhân khác nhau (quota, key, model, kết nối), cần thu hẹp một loại lỗi. Bàn giao công việc cho đồng nghiệp có impact cao nhưng chưa tách được nguyên nhân và việc kiểm chứng phụ thuộc đồng nghiệp tiếp nhận ngoài nhóm.
 
 **Xử lý bất đồng (nếu có):**
 

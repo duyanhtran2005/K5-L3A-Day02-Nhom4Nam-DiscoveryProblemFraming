@@ -14,8 +14,8 @@
 |---:|---|---|---|---|
 | 1 | Trần Anh Duy | 2A202603494 | | https://github.com/duyanhtran2005 |
 | 2 | Nguyễn Nhựt Linh | | | https://github.com/codenhenhe |
-| 3 | Trần Dương Trung Tính | 2A202603488 | | https://github.com/trngtnh |
-| 4 | | | | https://github.com/ViTL-AI26 |
+| 3 | | | | https://github.com/trngtnh |
+| 4 | Trương Lợi Vĩ | 2A202603441 | | https://github.com/ViTL-AI26 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 

@@ -15,7 +15,7 @@
 | 1 | Trần Anh Duy | 2A202603494 | Trưởng nhóm, phụ trách phân công công việc cho từng thành viên, phụ trách phần hội tụ nhóm (CP3) | https://github.com/duyanhtran2005 |
 | 2 | Nguyễn Nhựt Linh | 2A202603492 | Phụ trách và hoàn thiện CP6 | https://github.com/codenhenhe |
 | 3 | Trần Dương Trung Tính | 2A202603488 | Phụ trách rà soát và hoàn thiện CP5 | https://github.com/trngtnh |
-| 4 | Trương Lợi Vĩ | 2A202603441 | | https://github.com/ViTL-AI26 |
+| 4 | Trương Lợi Vĩ | 2A202603441 | Phụ trách và hoàn thiện CP4 | https://github.com/ViTL-AI26 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 

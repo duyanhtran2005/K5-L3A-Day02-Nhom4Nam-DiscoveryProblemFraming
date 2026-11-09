@@ -4,7 +4,7 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: 4Nam
 - Candidate problem nhóm chọn (1 câu):
 - Quyết định cuối (Go / Not Yet / No-Go):
 
@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Trần Anh Duy | 2A202603494 | | https://github.com/duyanhtran2005 |
+| 2 | Nguyễn Nhựt Linh | | | https://github.com/codenhenhe |
+| 3 | | | | https://github.com/trngtnh |
+| 4 | | | | https://github.com/ViTL-AI26 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -37,7 +37,7 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### TranAnhDuy-2A202603494
 
 **Phần việc phụ trách:**
 

@@ -248,3 +248,4 @@ Với candidate D3, trước tiên nhóm cần xác định rõ vấn đề mà 
 ---
 
 ## 7. Tài liệu tham khảo
+- Anthropic (2024), [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) - phân biệt Workflow và Agent ở CP6.

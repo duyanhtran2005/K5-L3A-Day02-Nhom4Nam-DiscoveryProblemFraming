@@ -5,14 +5,14 @@
 ## Thông tin nhóm
 
 - Tên nhóm: Nhom4Nam
-- Candidate problem nhóm chọn (1 câu): Khi đọc đề lab có nhiều file, tôi cần xác định đúng đầu ra từng checkpoint để lập kế hoạch và phân công
-- Quyết định cuối (Go / Not Yet / No-Go): Go
+- Candidate problem nhóm chọn (1 câu): Trưởng nhóm mất thời gian xác định đúng đầu ra từng checkpoint từ nhiều file hướng dẫn trước khi lên kế hoạch và phân công bài lab.
+- Quyết định cuối (Go / Not Yet / No-Go): Go — thử nghiệm ở phạm vi nhỏ (pilot).
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Trần Anh Duy | 2A202603494 | | https://github.com/duyanhtran2005 |
+| 1 | Trần Anh Duy | 2A202603494 | Trưởng nhóm, phụ trách phân công công việc cho từng thành viên, phụ trách phần hội tụ nhóm (CP3) | https://github.com/duyanhtran2005 |
 | 2 | Nguyễn Nhựt Linh | 2A202603492 | Phụ trách và hoàn thiện CP6 | https://github.com/codenhenhe |
 | 3 | Trần Dương Trung Tính | 2A202603488 | Phụ trách rà soát và hoàn thiện CP5 | https://github.com/trngtnh |
 | 4 | Trương Lợi Vĩ | 2A202603441 | | https://github.com/ViTL-AI26 |
@@ -25,9 +25,9 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
+| CP3 — Hội tụ nhóm | Trần Anh Duy | | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Trương Lợi Vĩ | | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Trương Lợi Vĩ | | Bảng research có link |
 | CP5 — Quy trình trước/sau | Trần Dương Trung Tính | | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Trần Dương Trung Tính | | Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Nhựt Linh | | Ma trận, AI Canvas, eval, Problem Statement v1 |
@@ -41,17 +41,22 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--
+- Trưởng nhóm: phân công công việc, điều phối CP3, rà kết quả các thành viên và tổng hợp báo cáo nhóm.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Tập hợp 12 Problem Card từ bốn thành viên, điều phối gom cluster, xây cây OST và so sánh shortlist để nhóm chốt D3.
+- Theo dõi phần việc từng người; rà sự nhất quán giữa kết quả kiểm chứng CP4, quy trình CP5, quyết định CP6 và nội dung trong `group_report.md`.
+- Điền, chỉnh và tổng hợp các phần thuộc báo cáo nhóm cùng thông tin nhóm trong `TEAM.md`.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- [`report/team/group_report.md`](report/team/group_report.md), mục 2 (CP3), mục 3–8 (kết quả đã rà và tổng hợp).
+- [`report/individual/2A202603494_TranAnhDuy.md`](report/individual/2A202603494_TranAnhDuy.md), mục 3–6 (card D3, vai trò nhóm và reflection).
 
 **Điều mình học được từ phần nhóm:**
+
+- Vai trò trưởng nhóm không chỉ là chia việc mà còn phải giúp nhóm giữ cùng một phạm vi đo, phân biệt bằng chứng thật với ước lượng và kiểm tra quyết định cuối có khớp với các giới hạn đã ghi.
 
 ### TruongLoiVi-2A202603441
 

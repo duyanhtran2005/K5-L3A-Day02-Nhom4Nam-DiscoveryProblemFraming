@@ -9,7 +9,7 @@
 - Họ tên: Trần Anh Duy
 - MSSV: 2A202603494
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm: 4Nhom
+- Tên nhóm: Nhom4Nam
 - Link repo nhóm: https://github.com/duyanhtran2005/K5-L3A-Day02-Nhom4Nam-DiscoveryProblemFraming.git
 
 ---
@@ -30,7 +30,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
+- AI gợi ý xem việc phân công và kiểm tra thành viên đã commit bài như cùng một vấn đề theo dõi tiến độ. Tôi giữ ý này và gộp thành problem #1 vì cùng ảnh hưởng đến trưởng nhóm, thành viên và đều có thời gian thực tế để đối chiếu: khoảng 15 phút hỏi tiến độ trong buổi họp và 10 phút kiểm repo trước khi nộp. Tôi bỏ các ý quá rộng hoặc chưa có dấu hiệu từ trải nghiệm của mình. Những problem còn lại được viết theo các tình huống tôi đã gặp khi làm nhóm hoặc thực tập.
 
 ---
 
@@ -253,6 +253,7 @@ HIỆN TẠI — 40 phút từ lúc đọc đề đến lúc bắt tay làm
 - Card số: 1 — Đồng nghiệp hỏi lại về phần việc được bàn giao.
 - Vì sao: Gần 10 lần hỏi và gần 30 phút giải thích mỗi lần; nếu xác nhận được thời gian và nguyên nhân, đây là pain lớn nhất trong ba card.
 - Câu hỏi muốn nhóm phản biện: Đồng nghiệp phải hỏi lại vì thiếu thông tin bàn giao, hay vì phần việc vốn khó và cần người hướng dẫn dù tài liệu đã đầy đủ?
+- Ở CP2, tôi ưu tiên card #1 vì chi phí thời gian bàn giao lớn. Khi chuẩn bị hội tụ nhóm ở CP3, tôi chuyển sang pitch D3 vì vấn đề này gần với trải nghiệm làm lab của cả nhóm, có quy trình rõ và dễ kiểm chứng với học viên khác trong buổi học.
 
 ### AI đã phản biện card thế nào
 
@@ -287,7 +288,7 @@ HIỆN TẠI — 40 phút từ lúc đọc đề đến lúc bắt tay làm
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý thêm góc nhìn cho các pain khi làm nhóm và lúc thực tập. | Giúp tôi kiểm tra vấn đề có actor và dấu hiệu cụ thể. | Có ý trùng nhau hoặc rộng hơn trải nghiệm thật. | Gộp ý về phân công và kiểm tra tiến độ; giữ những tình huống tôi có thể mô tả bằng thời gian hoặc hành vi đã xảy ra. |
 | CP2 Problem Card | Nhờ AI đặt câu hỏi phản biện cho ba card và so sánh mức rõ của bottleneck. | Chỉ ra card D3 không thể chỉ đo tốc độ. | Gợi ý giảm thời gian nhưng chưa bảo đảm không bỏ sót yêu cầu. | Thêm điều kiện độ đầy đủ của đầu ra; giữ mốc 40 phút và 17 phút ở trạng thái tự ước lượng. |
-| CP3 Chuẩn bị hội tụ | Tham khảo AI khi chuẩn bị cách trình bày và câu hỏi gợi ý cho các candidate. | Giúp tôi nhìn nhanh điểm chưa chắc trong card trước khi điều phối nhóm. | Câu hỏi AI gợi ý chưa phải phản biện thật của thành viên. | Dùng kết quả làm tài liệu chuẩn bị; phần pitch và câu hỏi thực tế được nhóm tự trao đổi. |
+| Chuẩn bị trước CP3 | Nhờ AI sắp xếp 12 candidate và gợi ý câu hỏi để tôi chuẩn bị điều phối. | Giúp tôi nhận ra các điểm còn chưa chắc trước buổi pitch. | Câu hỏi gợi ý không phản ánh cuộc trao đổi thật của nhóm. | Tôi dùng bản nháp để chuẩn bị; khi pitch và phản biện, các thành viên tự hỏi, tự trả lời và tự chốt candidate. |
 
 ---
 

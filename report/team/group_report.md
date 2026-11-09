@@ -336,7 +336,7 @@ Chưa có kết quả đo quy trình mới hoặc bằng chứng A4–A6 đượ
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
-- Phản biện của AI: 40/17 phút là ước lượng của D3, không phải kết quả bấm giờ; không gộp các mốc phỏng vấn khác phạm vi; chưa đủ bằng chứng về bỏ sót/làm lại thường xuyên; phải tính đủ thời gian chọn/nhập nguồn, kiểm và sửa nháp; người dùng kiểm toàn bộ nguồn trước phân công. Nhóm đồng ý toàn bộ các điểm này. Đã điều chỉnh: giữ rõ nguồn và trạng thái số liệu, dùng ngân sách mục tiêu 19 phút cho phương án mới, bổ sung kiểm tra chất lượng và phương án quay về, đưa các ràng buộc đã ghi trong CP4 và quyết định kiểm nguồn của nhóm vào Boundary. Nhóm chưa khẳng định đạt target hoặc kiểm chứng được độ chính xác của AI; các kết quả này sẽ được ghi sau thử nghiệm.
+- AI góp ý cần thống nhất mốc đo giữa sơ đồ và Problem Statement, đồng thời ghi rõ quyền hạn của AI và trách nhiệm kiểm tra của trưởng nhóm. Nhóm đồng ý và đã sửa: thống nhất cách đo từ lúc mở bộ hướng dẫn lab đến khi phân công xong và các thành viên xác nhận tiếp nhận; tính đủ thời gian chuẩn bị nguồn, xử lý, kiểm và sửa nháp trong ngân sách mục tiêu 19 phút. Trưởng nhóm kiểm checklist với toàn bộ tài liệu gốc trước khi phân công. Boundary quy định AI chỉ tạo nháp, không tự sửa tài liệu, phân công, gửi thông báo hoặc nộp bài. Nhóm cũng bổ sung phương án quay về đọc nguồn và lập checklist thủ công khi nháp sai, thiếu hoặc công cụ gặp lỗi.
 
 ---
 

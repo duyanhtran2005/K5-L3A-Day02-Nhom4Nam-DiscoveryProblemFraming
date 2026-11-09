@@ -84,7 +84,7 @@ Kiểm tra lại yêu cầu
 Bắt đầu thực hiện bài lab
 ```
 
-### 3. Problem Card #2
+### Problem Card #2
 
 | Trường | Nội dung |
 |---|---|
@@ -121,7 +121,7 @@ Thử áp dụng vào bài lab/dự án
 ```
 
 
-### 4. Problem Card #3
+### Problem Card #3
 
 | Trường | Nội dung |
 |---|---|
@@ -177,16 +177,16 @@ Gửi lại request để kiểm tra
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày Problem Card #2 về khó khăn khi tìm hiểu và tổng hợp kiến thức AI từ nhiều nguồn. | Đưa vấn đề cá nhân vào quá trình thảo luận, giúp nhóm có thêm một candidate để so sánh và lựa chọn. |
+| Phản biện bài của bạn khác | Tham gia lắng nghe và đặt câu hỏi nhằm làm rõ actor, bối cảnh, tần suất xảy ra và tác động của các vấn đề được trình bày. | Giúp nhận diện những điểm còn thiếu bằng chứng và phân biệt vấn đề cốt lõi với các biểu hiện bên ngoài. |
+| Nhận phản biện | Tiếp nhận góp ý về phạm vi vấn đề, cách xác định actor và sự khác biệt giữa pain point với các dấu hiệu như tài liệu phân tán hoặc hướng dẫn chưa thống nhất. | Điều chỉnh cách diễn đạt Problem Card, tập trung vào khó khăn trong việc tìm kiếm, đọc và tổng hợp thông tin. |
+| Gom cluster / cây OST | Tham gia đối chiếu các Problem Card và nhóm những vấn đề có điểm chung về việc đọc, tìm kiếm, tổng hợp yêu cầu Codelab. | Nhận ra L1 của tôi và D3 của thành viên khác có liên quan đến cùng một nhóm vấn đề, tạo cơ sở để nhóm xem xét candidate chung. |
+| Chọn candidate problem | Tham gia thảo luận và lựa chọn candidate D3 làm vấn đề nhóm tập trung giải quyết. | Nhóm thống nhất tập trung vào khó khăn của trưởng nhóm khi xác định đầu ra từng checkpoint từ nhiều tài liệu hướng dẫn trước khi lập kế hoạch và phân công. |
+| Kiểm chứng / research | Tham gia xem xét và thảo luận các kết quả research, đối chiếu những nhận định ban đầu với bằng chứng nhóm thu thập được. | Giúp nhận diện những giả định chưa được xác nhận, xem xét các giải pháp hiện có và điều chỉnh phạm vi vấn đề cho phù hợp. |
+| Quy trình nhóm | Tham gia phân tích quy trình hiện tại, xác định các bước đọc tài liệu, đối chiếu yêu cầu, xác định deliverables và lập kế hoạch; đồng thời xem xét quy trình đề xuất. | Làm rõ bước đối chiếu thông tin là bottleneck cần ưu tiên cải thiện, từ đó tạo cơ sở xây dựng workflow mới. |
+| Problem Statement | Tham gia rà soát các thành phần của Problem Statement: actor, bối cảnh, quy trình, bottleneck, impact, success metric và boundary. | Giúp mô tả vấn đề D3 cụ thể hơn, phân biệt số liệu ước lượng với dữ liệu kiểm chứng và tránh đưa giải pháp vào phần mô tả vấn đề. |
+| Mức can thiệp AI | Sử dụng AI để hỗ trợ phân tích ma trận độ mơ hồ × độ phức tạp, so sánh No AI, Rule, Workflow và Agent; đề xuất Workflow cho bài toán D3. | Làm rõ AI có thể hỗ trợ tổng hợp và tổ chức thông tin theo các bước xác định trước, trong khi con người vẫn kiểm tra và quyết định nội dung cuối cùng. |
+| Quyết định | Tham gia xem xét các rủi ro Value, Usability, Feasibility và Viability trước khi đánh giá hướng triển khai candidate D3. | Nhóm xác định Workflow là hướng can thiệp phù hợp để tiếp tục xem xét, tuy nhiên vẫn cần kiểm chứng thêm về mức độ hữu ích, khả năng triển khai và hiệu quả thực tế trước khi đưa ra quyết định cuối cùng. |
 
 ---
 
@@ -195,34 +195,56 @@ Gửi lại request để kiểm tra
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | Nhờ AI gợi ý, phân loại và diễn đạt các vấn đề tôi thường gặp khi học tập, làm lab và thực hiện dự án AI. | Giúp mở rộng danh sách pain point, sắp xếp vấn đề theo nhóm và chuyển trải nghiệm cá nhân thành các mô tả rõ ràng. | Một số gợi ý còn chung chung, nhầm lẫn giữa vấn đề chính và dấu hiệu của vấn đề; có vấn đề chưa phản ánh đúng trải nghiệm thực tế. | Loại bỏ những vấn đề chưa có trải nghiệm hoặc bằng chứng rõ ràng, giữ lại các vấn đề thực sự gặp phải và bổ sung bối cảnh cụ thể. |
-| CP2 Problem Card | Nhờ AI hỗ trợ chọn lọc top 3 vấn đề, xây dựng Problem Card, quy trình hiện tại và phản biện các giả thuyết giải pháp. | Giúp hệ thống hóa từng vấn đề theo đối tượng, bối cảnh, quy trình, bottleneck và tác động; gợi ý cách đo lường mức độ ảnh hưởng. | Một số nội dung còn rộng, đưa ra chỉ số thời gian và mức cải thiện chưa có dữ liệu kiểm chứng; đôi khi tập trung vào biểu hiện thay vì nguyên nhân cốt lõi. | Tự chọn 3 vấn đề phù hợp nhất (1, 3, 5), chỉnh sửa nội dung theo trải nghiệm thực tế, phân biệt vấn đề chính với dấu hiệu và xem các con số ước lượng là giả thuyết cần kiểm chứng.
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP2 Problem Card | Nhờ AI hỗ trợ chọn lọc top 3 vấn đề, xây dựng Problem Card, quy trình hiện tại và phản biện các giả thuyết giải pháp. | Giúp hệ thống hóa từng vấn đề theo đối tượng, bối cảnh, quy trình, bottleneck và tác động; gợi ý cách đo lường mức độ ảnh hưởng. | Một số nội dung còn rộng, đưa ra chỉ số thời gian và mức cải thiện chưa có dữ liệu kiểm chứng; đôi khi tập trung vào biểu hiện thay vì nguyên nhân cốt lõi. | Tự chọn 3 vấn đề phù hợp nhất từ các vấn đề số 1, 3 và 5 trong bảng CP1, tương ứng với Problem Card #1, #2 và #3. Tôi chỉnh sửa nội dung theo trải nghiệm thực tế và xem các con số ước lượng là giả thuyết cần kiểm chứng. |
+| CP4 Research | Nhờ AI hỗ trợ tổng hợp thông tin về các cách giải quyết vấn đề xác định yêu cầu từ nhiều tài liệu, đồng thời phân tích và so sánh các giải pháp hiện có. | Giúp hệ thống hóa thông tin, nhận diện ưu nhược điểm của từng hướng tiếp cận và gợi ý các khía cạnh cần kiểm chứng thêm. | Một số nhận định còn mang tính tổng quát, chưa phản ánh đầy đủ bối cảnh thực tế của người dùng; thông tin do AI đưa ra chưa phải bằng chứng kiểm chứng. | Đối chiếu nội dung AI với tài liệu và kết quả research của nhóm, không xem các nhận định do AI tạo ra là kết luận thực tế nếu chưa có nguồn xác nhận. |
+| CP5 Quy trình | Nhờ AI hỗ trợ mô tả quy trình hiện tại, phân tích các bước gây mất thời gian và đề xuất quy trình cải tiến cho candidate D3. | Giúp hệ thống hóa các bước từ đọc tài liệu, đối chiếu yêu cầu đến xác định deliverables và lập kế hoạch; làm rõ vị trí có thể cải thiện bằng AI. | Quy trình AI đề xuất đôi khi còn chung chung, chưa phân biệt rõ bước tự động hóa và bước cần người dùng kiểm tra, xác nhận. | Điều chỉnh quy trình theo bối cảnh thực tế của Codelab, giữ quyền kiểm tra và quyết định cuối cùng cho trưởng nhóm, không tự động hóa toàn bộ quy trình. |
+| CP5–6 Problem Statement | Nhờ AI hỗ trợ xây dựng và rà soát Problem Statement cho candidate D3, tập trung vào actor, bottleneck, impact, success metric và boundary. | Giúp hệ thống hóa các thành phần của Problem Statement và nhận diện những thông tin còn thiếu. | AI có xu hướng tự bổ sung số liệu, giả định baseline và mô tả quy trình khi chưa có đủ bằng chứng từ nhóm. | Yêu cầu AI phân biệt số liệu ước lượng với kết quả kiểm chứng, đồng thời điều chỉnh nội dung để bám đúng candidate D3 thay vì nhầm sang Problem Card cá nhân. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI phân tích ma trận độ mơ hồ × độ phức tạp, so sánh No AI / Rule / Workflow / Agent, xây dựng AI Canvas và đánh giá bốn rủi ro trước khi đề xuất quyết định. | Giúp nhìn rõ ưu nhược điểm của từng mức can thiệp, xác định phần việc AI có thể hỗ trợ và vai trò kiểm tra của con người. | AI có thể đưa ra lựa chọn mức can thiệp hoặc quyết định Go khi chưa có đủ bằng chứng; một số số liệu và giả định được đưa ra chưa được xác minh. | Yêu cầu làm rõ cơ sở lựa chọn D3, phân biệt đề xuất với quyết định thực tế của nhóm và không xem các số liệu ước lượng là kết quả đã kiểm chứng. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Khi nghe các thành viên trình bày top 3 problems, tôi nhận ra mỗi người có những khó khăn khác nhau nhưng có thể có điểm chung về nguyên nhân hoặc quy trình. Một số vấn đề ban đầu nghe có vẻ khác nhau nhưng khi phân tích kỹ lại đều liên quan đến việc mất thời gian tìm kiếm, xử lý hoặc tổng hợp thông tin. Điều này giúp tôi hiểu rằng không nên chỉ nhìn vào biểu hiện bên ngoài mà cần tìm hiểu công việc thực tế mà người gặp vấn đề đang thực hiện. 
+
+Ban đầu, tôi tập trung vào vấn đề cá nhân như tìm hiểu kiến thức AI từ nhiều nguồn hoặc xử lý lỗi khi sử dụng LLM API. Tuy nhiên, khi thảo luận cùng nhóm, tôi nhận ra cần đánh giá vấn đề dựa trên mức độ ảnh hưởng, tần suất xảy ra và khả năng kiểm chứng, thay vì chỉ chọn vấn đề mà bản thân cảm thấy thú vị. Tôi cũng học được cách đặt câu hỏi để làm rõ actor, bối cảnh và bottleneck của từng vấn đề trước khi nghĩ đến giải pháp.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Tôi nhận thấy nhóm có nguy cơ đi theo hướng solution-first khi bắt đầu thảo luận về việc sử dụng AI để giải quyết vấn đề. Khi thấy một công việc mất thời gian, chúng tôi khá dễ nghĩ ngay đến việc sử dụng chatbot hoặc một công cụ AI để tự động hóa. Tuy nhiên, việc sử dụng AI không đồng nghĩa với việc giải quyết đúng nguyên nhân của vấn đề.
+
+Để hạn chế điều này, nhóm cần quay lại phân tích quy trình hiện tại, xác định người gặp vấn đề, các bước thực hiện và bước nào thực sự gây mất thời gian. Đối với candidate D3, nhóm tập trung làm rõ khó khăn trong quá trình thực hiện công việc thay vì mặc định rằng cần xây dựng một Agent. Sau đó, nhóm mới xem xét AI có thể hỗ trợ ở bước nào và phần nào vẫn cần con người kiểm tra. Qua đó, tôi hiểu rằng cần xác định vấn đề và nhu cầu thực tế trước khi lựa chọn công nghệ hoặc thiết kế giải pháp.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Trong quá trình thực hiện bài tập, tôi nhận ra một vấn đề có thể được mô tả theo nhiều cách khác nhau. Ban đầu, khi xây dựng các problem card, tôi thường chú ý đến những biểu hiện dễ nhận thấy như tài liệu phân tán, hướng dẫn không thống nhất hoặc phải thử nghiệm nhiều lần. Tuy nhiên, những biểu hiện này chưa chắc đã thể hiện chính xác vấn đề cốt lõi mà người dùng đang gặp phải.
+
+Sau khi xem xét và phản biện các problem card, tôi hiểu rằng cần tập trung vào công việc mà người dùng muốn hoàn thành và trở ngại khiến họ không thể thực hiện hiệu quả. Vì vậy, tôi điều chỉnh cách diễn đạt theo hướng nhấn mạnh vấn đề chính là mất thời gian tìm kiếm, đọc và tổng hợp thông tin, thay vì chỉ liệt kê những bất tiện trong quá trình thực hiện. Điều này giúp tôi nhận ra phản biện không chỉ nhằm tìm ra điểm chưa hợp lý mà còn giúp làm rõ vấn đề và cải thiện cách đặt problem statement.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Qua quá trình nghiên cứu và thảo luận về candidate D3, tôi nhận ra rằng khó khăn trong việc xác định yêu cầu từ nhiều tài liệu không phải lúc nào cũng xuất hiện ở mọi người hoặc mọi Codelab. Một số trường hợp có README được tổ chức tốt thì việc nắm bắt yêu cầu không quá khó khăn. Điều này cho thấy mức độ ảnh hưởng của vấn đề còn phụ thuộc vào cách tổ chức tài liệu và độ phức tạp của từng bài lab.
+
+Điều khiến tôi chú ý là cần phân biệt giữa trải nghiệm cá nhân, nhận định từ research và bằng chứng đã được kiểm chứng. Chẳng hạn, thời gian thực hiện một công việc do người tham gia ước lượng chưa thể xem là số liệu đại diện cho toàn bộ người dùng. Tôi rút ra rằng kiểm chứng không chỉ nhằm xác nhận giả thuyết ban đầu mà còn giúp nhóm nhận diện những trường hợp ngoại lệ, điều chỉnh phạm vi vấn đề và tránh lựa chọn giải pháp dựa trên những giả định chưa đủ cơ sở.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Theo tôi, khó nhất khi viết Problem Statement là xác định đúng bottleneck và diễn đạt vấn đề đủ cụ thể mà không đưa giải pháp vào quá sớm. Khi mô tả một khó khăn, tôi thường có xu hướng liệt kê nhiều biểu hiện khác nhau. Tuy nhiên, nếu không phân tích quy trình thì rất dễ nhầm lẫn giữa triệu chứng và nguyên nhân chính khiến công việc mất thời gian.
+
+Ngoài ra, việc xây dựng Success Metric cũng là một thách thức. Một mục tiêu như tiết kiệm thời gian hoặc tăng hiệu quả vẫn còn chung chung nếu không xác định được cách đo lường. Cần có baseline để biết tình trạng hiện tại và target để đánh giá mức cải thiện. Boundary cũng cần được xác định rõ để tránh việc AI tự đưa ra những quyết định vượt quá phạm vi hỗ trợ. Qua bài tập này, tôi hiểu rằng một Problem Statement tốt không cần mô tả quá dài nhưng phải làm rõ ai gặp vấn đề, vấn đề xảy ra ở đâu, ảnh hưởng như thế nào và kết quả nào được xem là cải thiện.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Nếu được thực hiện lại, tôi sẽ dành nhiều thời gian hơn cho việc thu thập bằng chứng ngay từ CP1 và CP2 thay vì chủ yếu dựa vào trải nghiệm cá nhân. Tôi cũng sẽ ghi nhận cụ thể thời gian thực hiện từng bước trong quy trình để xác định bottleneck chính xác hơn. Điều này giúp việc lựa chọn candidate và xây dựng Problem Statement có cơ sở rõ ràng hơn.
+
+Trong quá trình phản biện, tôi muốn tập trung nhiều hơn vào tính hợp lý của baseline, target và các giả định về người dùng. Chẳng hạn, nếu nhóm cho rằng một công việc mất nhiều thời gian thì cần làm rõ số liệu được lấy từ đâu, có bao nhiêu người gặp vấn đề và tần suất xảy ra như thế nào. Tôi cũng sẽ đặt câu hỏi về việc liệu AI có thực sự cần thiết hay một checklist hoặc quy trình Rule đơn giản đã đủ giải quyết vấn đề. Tôi nghĩ cách tiếp cận này sẽ giúp nhóm tránh lựa chọn công nghệ quá sớm và tập trung hơn vào giá trị thực tế của giải pháp.
+
+**6.7. Hiểu bài**
+
+Với candidate D3, trước tiên nhóm cần xác định rõ vấn đề mà người dùng gặp phải và quy trình hiện tại dẫn đến vấn đề đó. Sau khi xác định bottleneck, nhóm sử dụng các Success Metric để đo lường tình trạng ban đầu và đánh giá mức độ cải thiện mong muốn. Tiếp theo, cần xác định Boundary để làm rõ AI được phép hỗ trợ phần nào và những quyết định nào vẫn thuộc về con người. Dựa trên độ phức tạp và độ mơ hồ của công việc, nhóm so sánh các mức can thiệp từ No AI, Rule, Workflow đến Agent để chọn phương án phù hợp. Với D3, Workflow là hướng được đề xuất vì có thể kết hợp các bước xử lý cố định với khả năng hỗ trợ của AI mà không cần giao toàn bộ quyền quyết định cho Agent. Cuối cùng, nhóm đánh giá các rủi ro về Value, Usability, Feasibility và Viability trước khi đưa ra quyết định Go, Not Yet hoặc No-Go dựa trên bằng chứng.
 
 ---
 
 ## 7. Tài liệu tham khảo
-
--

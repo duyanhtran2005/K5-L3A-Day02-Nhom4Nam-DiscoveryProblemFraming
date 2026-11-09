@@ -14,7 +14,7 @@
 |---:|---|---|---|---|
 | 1 | Trần Anh Duy | 2A202603494 | | https://github.com/duyanhtran2005 |
 | 2 | Nguyễn Nhựt Linh | 2A202603492 | | https://github.com/codenhenhe |
-| 3 | Trần Dương Trung Tính | 2A202603488 | | https://github.com/trngtnh |
+| 3 | Trần Dương Trung Tính | 2A202603488 | Phụ trách rà soát và hoàn thiện CP5 | https://github.com/trngtnh |
 | 4 | Trương Lợi Vĩ | 2A202603441 | | https://github.com/ViTL-AI26 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
@@ -28,8 +28,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
+| CP5 — Quy trình trước/sau | Trần Dương Trung Tính | | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Trần Dương Trung Tính | | Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
 | CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
 
@@ -87,3 +87,21 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Biết cách thu hẹp Problem Statement dựa trên các tín hiệu kiểm chứng, tránh mô tả vấn đề quá rộng.
 - Cải thiện khả năng nghiên cứu, so sánh các giải pháp hiện có và xác định khoảng trống để định hướng một giải pháp phù hợp với nhu cầu người dùng.
 -
+
+### TranDuongTrungTinh-2A202603488
+
+**Phần việc phụ trách:**
+
+- Rà soát và hoàn thiện CP5: quy trình trước/sau, bảng before/after và sự nhất quán của Problem Statement v0.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Trình bày các candidate T1–T3 từ kinh nghiệm làm website. Tiếp nhận bản CP4 của bạn phụ trách để đối chiếu CP5. Yêu cầu giữ đúng template, thống nhất mốc đo đến khi phân công xong và thành viên xác nhận tiếp nhận, làm rõ quyền hạn của AI và trách nhiệm kiểm nguồn trước khi dùng checklist.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- [Báo cáo nhóm, mục 4–5](report/team/group_report.md); commit [67828da](https://github.com/duyanhtran2005/K5-L3A-Day02-Nhom4Nam-DiscoveryProblemFraming/commit/67828da) hoàn thiện CP5 và [fb20204](https://github.com/duyanhtran2005/K5-L3A-Day02-Nhom4Nam-DiscoveryProblemFraming/commit/fb20204) làm rõ phản biện và các chỉnh sửa.
+
+**Điều mình học được từ phần nhóm:**
+
+- Khi rà soát CP5, cần kiểm tra mốc đo, điều kiện chất lượng và boundary trên cùng một phạm vi. Và cần phải phân biệt ước lượng và target với kết quả đã thử nghiệm.

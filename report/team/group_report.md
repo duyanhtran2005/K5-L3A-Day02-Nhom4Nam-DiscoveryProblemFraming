@@ -192,36 +192,134 @@ Nhóm tìm hiểu ba công cụ hoặc trường hợp có liên quan đến vi�
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 ```text
+HIỆN TẠI — trường hợp trưởng nhóm trong card D3: khoảng 40 phút/lượt.
+Phân bổ 3–12–17–5–3 phút là ước lượng của D3, chưa phải số đo của 3 người phỏng vấn.
 
+[1. Xác định file hướng dẫn cần đọc: khoảng 3 phút]
+  → [2. Đọc các checkpoint: khoảng 12 phút]
+  → [3. Đối chiếu worksheet, rubric và mẫu báo cáo: khoảng 17 phút] ← BOTTLENECK DỰ KIẾN
+  → [4. Ghi đầu ra, người phụ trách và deadline: khoảng 5 phút]
+  → [5. Hoàn tất phân công và xác nhận tiếp nhận: khoảng 3 phút]
+
+Actor chính: trưởng nhóm/sinh viên phụ trách phân chia công việc.
+Handoff ở bước 5: chuyển yêu cầu và vị trí lưu/nộp cho thành viên nhận việc.
+Bắt đầu: mở bộ hướng dẫn lab.
+Kết thúc: trưởng nhóm hoàn tất phân công và các thành viên xác nhận tiếp nhận phần việc.
+Mốc này dùng thống nhất cho phép đo hiện tại và tương lai; tính cả bước phân công, xác nhận tiếp nhận.
+Tổng phân bổ D3: 3 + 12 + 17 + 5 + 3 = 40 phút.
+
+ĐỐI CHIẾU CP4:
+- A: tự ước tính 15–20 phút đọc và tổng hợp yêu cầu.
+- B: tự ước tính 10–15 phút kiểm tra, xác nhận yêu cầu phân chia công việc.
+- C: tự ước tính 10–15 phút xác định thứ tự và tổng hợp nhiệm vụ.
+Các phạm vi trên khác lượt chuẩn bị/phân công 40 phút của D3; không gộp hoặc lấy trung bình.
+CP4 ghi nhận việc đọc chéo, ghi chú, kiểm tra repo và hỏi lại thông tin.
+Khi README rõ, khó khăn có thể ít; chưa đủ bằng chứng về bỏ sót đầu ra hoặc làm lại thường xuyên.
+Nguồn: card D3 và bản CP4 nhóm cung cấp; các thời gian đều là tự ước tính.
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Trưởng nhóm/sinh viên phụ trách phân chia công việc | Repository, README và các tệp hướng dẫn | Danh sách nguồn cần đọc và vị trí các phần hướng dẫn | Khoảng 3 phút/lượt chuẩn bị theo D3 | Mốc D3 là ước lượng cá nhân; CP4 chưa đo riêng bước này. |
+| 2 | Trưởng nhóm/sinh viên phụ trách phân chia công việc | Danh sách nguồn và nội dung checkpoint | Nhận diện nhiệm vụ, đầu ra và phần cá nhân/nhóm | Khoảng 12 phút/lượt chuẩn bị theo D3 | Interview A mô tả đọc README rồi worksheet để bổ sung yêu cầu chi tiết. |
+| 3 | Trưởng nhóm/sinh viên phụ trách phân chia công việc | Checkpoint, worksheet, rubric và mẫu báo cáo | Yêu cầu về đầu ra, thứ tự, định dạng và vị trí lưu/nộp đã được đối chiếu | Khoảng 17 phút/lượt chuẩn bị theo D3 | Bottleneck dự kiến. A–C ghi nhận tổng hợp/xác nhận thông tin, nhưng chưa xác nhận 17 phút là bước chậm nhất. |
+| 4 | Trưởng nhóm/sinh viên phụ trách phân chia công việc | Yêu cầu đã đối chiếu, thông tin thành viên và deadline trong đề | Danh sách đầu việc, đầu ra và người phụ trách | Khoảng 5 phút/lượt chuẩn bị theo D3 | Interview B cho thấy quy ước phân công và vị trí lưu tệp cũng có thể chưa rõ; không quy mọi khó khăn về tài liệu phân tán. |
+| 5 | Trưởng nhóm và thành viên nhận việc | Danh sách công việc, người phụ trách, thứ tự và vị trí lưu/nộp | Phân công hoàn tất; các thành viên xác nhận tiếp nhận phần việc | Khoảng 3 phút/lượt chuẩn bị theo D3 | Đây là mốc dừng đo: thành viên xác nhận đầu ra và file cần điền, không chờ đến lúc bắt đầu xử lý sản phẩm. |
 
-**Bottleneck chính:**
+**Bottleneck chính:** Dự kiến là bước 3, đối chiếu yêu cầu, đầu ra, thứ tự và vị trí lưu/nộp giữa nhiều nguồn. D3 ước lượng 17 phút trong tổng 40 phút. CP4 ghi nhận hành vi tổng hợp/xác nhận thông tin nhưng chưa có số đo từng bước để xác nhận 17 phút hoặc xếp hạng bottleneck.
 
 ### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
 ```text
+PHƯƠNG ÁN ĐỀ XUẤT THEO ĐỊNH HƯỚNG CP4 — chưa triển khai hoặc đo thử.
+AI hỗ trợ tạo bản nháp checklist từ nguồn; con người kiểm tra và quyết định phân công.
+Mức can thiệp cuối cùng được nhóm so sánh, chốt ở CP6.
+Ngân sách mục tiêu cho một lượt sử dụng: 19 phút, nằm dưới target 20 phút.
+Phân bổ dưới đây là đề xuất thiết kế để thử nghiệm, không phải thời gian đã đo hoặc hiệu năng đã chứng minh.
 
+[1. CON NGƯỜI — Chọn bộ tài liệu đúng phiên bản]
+Actor: trưởng nhóm/sinh viên điều phối.
+Input: repo và hướng dẫn được cung cấp.
+Output: bộ README, checkpoint, worksheet, rubric, hướng dẫn nộp và mẫu báo cáo sẽ sử dụng.
+Ngân sách mục tiêu: 3 phút.
+
+  → [2. RULE DỰ KIẾN — Kiểm tra đầu vào và lập danh mục nguồn]
+Input: bộ tài liệu đã chọn.
+Output: danh mục tệp đọc được, mã tham chiếu nguồn và cảnh báo tệp không đọc được/thiếu so với danh mục đã chọn.
+Không khẳng định tự phát hiện được mọi tài liệu mà người dùng chưa cung cấp.
+Ngân sách mục tiêu: 1 phút.
+
+  → [3. AI — Trích xuất bản nháp checklist có dẫn nguồn]
+Input: nội dung nguồn đọc được và mẫu trường đầu ra.
+Output: mỗi dòng có checkpoint, nhiệm vụ, cá nhân/nhóm, deliverable, định dạng,
+file/vị trí lưu hoặc nộp, thứ tự/phụ thuộc nếu nguồn có nêu, và dẫn chiếu.
+Nội dung không tìm thấy, mâu thuẫn hoặc chưa rõ phải được đánh dấu; không tự suy đoán.
+Ngân sách mục tiêu: 2 phút.
+
+  → [4. RULE DỰ KIẾN — Kiểm tra cấu trúc và tham chiếu]
+Input: bản nháp checklist và danh mục nguồn.
+Output: danh sách trường thiếu, dẫn chiếu không thuộc bộ nguồn và phụ thuộc tham chiếu đến checkpoint không có trong bảng.
+Kiểm tra cấu trúc không chứng minh checklist đúng nghĩa hoặc không bỏ sót yêu cầu.
+Ngân sách mục tiêu: 1 phút.
+
+  → [5. CON NGƯỜI — Đối chiếu checklist với toàn bộ yêu cầu gốc]
+Actor: trưởng nhóm/sinh viên điều phối.
+Input: checklist, cảnh báo và tài liệu gốc.
+Output: checklist đã sửa; nội dung chưa rõ được hỏi coach thay vì tự kết luận.
+Đây là điểm kiểm tra bắt buộc trước phân công; phải kiểm cả yêu cầu bị bỏ sót,
+không chỉ kiểm những dòng AI đã trích ra.
+Ngân sách mục tiêu: 9 phút.
+
+  → [6. CON NGƯỜI — Lập phân công và xác nhận tiếp nhận]
+Actor: trưởng nhóm cùng thành viên nhận việc.
+Input: checklist đã kiểm, nguồn về thứ tự/deadline và thông tin thành viên.
+Output: bảng công việc có người phụ trách, đầu ra, vị trí lưu/nộp; các thành viên xác nhận tiếp nhận phần việc.
+Đây là mốc kết thúc phép đo, thống nhất với quy trình hiện tại.
+Ngân sách mục tiêu: 3 phút.
+
+TỔNG NGÂN SÁCH MỤC TIÊU: 3 + 1 + 2 + 1 + 9 + 3 = 19 phút.
+Bottleneck dự kiến của quy trình mới: bước 5 kiểm tra và sửa checklist, ngân sách 9 phút.
+Đây là giả thuyết theo phân bổ thiết kế; khi thử nghiệm phải ghi thời gian thực tế.
+Nếu chưa kiểm đủ nguồn trong 9 phút thì tiếp tục kiểm và ghi phần vượt ngân sách,
+không bỏ bước kiểm tra để đạt target tốc độ.
+
+BOUNDARY ĐỀ XUẤT CHO QUY TRÌNH:
+- AI chỉ tạo nháp từ bộ nguồn đã cung cấp; không tự thêm hoặc bỏ yêu cầu.
+- Chỉ nêu thứ tự, phụ thuộc và deadline khi nguồn có căn cứ; thiếu hoặc mâu thuẫn thì đánh dấu.
+- AI không tự sửa đề, rubric, bài làm, tự phân công, tự gửi thông báo hoặc tự nộp bài.
+- Trưởng nhóm kiểm và sửa trước khi checklist được dùng; người nhận việc xác nhận phần mình.
+- Chưa thử nghiệm thì không coi khả năng trích xuất chính xác của AI là đã được kiểm chứng.
+
+PHƯƠNG ÁN QUAY VỀ:
+Nếu nguồn không đọc được, nháp thiếu/sai, dẫn nguồn không kiểm tra được hoặc AI ngừng hoạt động:
+bỏ phần nháp không đáng tin, đọc và đối chiếu tài liệu gốc,
+lập checklist bằng tay rồi kiểm lại trước khi phân công.
+Nếu README đã rõ, có thể dùng ngay checklist thủ công; chưa có bằng chứng phải dùng AI cho mọi bài lab.
+
+CÁCH ĐO DỰ KIẾN:
+Bắt đầu đo khi mở bộ hướng dẫn lab; kết thúc khi trưởng nhóm hoàn tất phân công và các thành viên xác nhận tiếp nhận phần việc.
+Tính cả chọn nguồn, nhập nguồn, chạy xử lý, kiểm/sửa và phân công trong tổng thời gian.
+Baseline tham chiếu: D3 tự ước lượng khoảng 40 phút; target đề xuất từ D3: dưới 20 phút.
+Khi bấm giờ xác nhận baseline hoặc thử phương án mới, đều dùng cùng hai mốc đã định nghĩa;
+40 phút chưa phải kết quả đã đo lại theo định nghĩa này.
+Đo lại trên cùng phạm vi công việc; không so 40 phút tổng với 10–15 phút cho một phần việc.
+Trưởng nhóm đối chiếu với toàn bộ đề để ghi yêu cầu bắt buộc bị thiếu/sai và thời gian sửa nháp.
+Chỉ coi lượt thử đạt khi tổng dưới 20 phút và không còn yêu cầu bắt buộc bị thiếu/sai sau kiểm tra.
+Các mốc 3–1–2–1–9–3 là ngân sách thử nghiệm; nếu đo khác phải cập nhật, không sửa số đo để khớp kế hoạch.
+Chưa có kết quả đo quy trình mới hoặc bằng chứng A4–A6 được kiểm chứng bằng thử nghiệm.
 ```
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 5 | 6 | Quy trình đề xuất tách rõ kiểm tra đầu vào, AI tạo nháp, kiểm cấu trúc, người duyệt và phân công. |
+| Tổng thời gian | Khoảng 40 phút/lượt chuẩn bị theo tự ước lượng D3 | Ngân sách mục tiêu 19 phút/lượt; target dưới 20 phút; chưa đo | Cùng tính từ mở hướng dẫn đến hoàn tất phân công và thành viên xác nhận tiếp nhận. Gồm chọn/nhập nguồn, xử lý, kiểm/sửa và bàn giao. Baseline D3 chưa được đo lại theo mốc này; không thay bằng các thời gian phỏng vấn khác phạm vi. |
+| Số bước thủ công | 5/5 | 3/6 bước cần người thực hiện: 1, 5, 6 | Bước 2 và 4 là Rule dự kiến; bước 3 là AI. Chưa triển khai hoặc đo mức tiết kiệm công sức. |
+| Bottleneck chính | Bước 3, khoảng 17 phút theo ước lượng D3 | Dự kiến bước 5 kiểm và sửa checklist, ngân sách 9 phút | Dự kiến theo phân bổ thiết kế, chưa được đo xác nhận. Tiếp tục kiểm nguồn nếu vượt 9 phút; không rút bớt kiểm tra để đạt target. |
+| Rủi ro mới phát sinh | Phải tự tổng hợp hoặc xác nhận lại yêu cầu; chưa có bằng chứng mạnh về làm lại thường xuyên | AI bỏ sót/diễn giải sai yêu cầu, suy đoán phụ thuộc hoặc dẫn sai nguồn; người dùng tin nháp quá sớm | Người điều phối kiểm toàn bộ yêu cầu gốc, xử lý cảnh báo và quay về checklist thủ công nếu nháp không đáng tin. |
 
 ---
 
@@ -229,16 +327,16 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Sinh viên phụ trách phân chia công việc trong nhóm |
+| **Quy trình** | 1. Xác định file hướng dẫn cần đọc; 2. Đọc các checkpoint; 3. Đối chiếu worksheet, rubric và mẫu báo cáo; 4. Ghi đầu ra, người phụ trách và deadline; 5. Hoàn tất phân công và các thành viên xác nhận tiếp nhận phần việc. |
+| **Bottleneck** | Bước 3, đối chiếu đầu ra từng checkpoint giữa các file, khoảng 17 phút trong tổng 40 phút. |
+| **Impact** | Quá trình này có thể làm tăng thời gian chuẩn bị, gây khó khăn khi phối hợp công việc và khiến sinh viên phải xác nhận lại những yêu cầu chưa rõ. |
+| **Success Metric** (baseline → target, cách đo) | Baseline tham chiếu khoảng 40 phút, theo ước lượng D3; target dưới 20 phút, với ngân sách thiết kế 19 phút. Bấm giờ ở bài lab tiếp theo từ lúc mở bộ hướng dẫn lab đến khi trưởng nhóm hoàn tất phân công và các thành viên xác nhận tiếp nhận phần việc. Tính đủ thời gian chọn/nhập nguồn, xử lý, kiểm/sửa và phân công; dùng cùng hai mốc khi đo lại baseline. Đối chiếu toàn bộ đề để kiểm tra không còn yêu cầu bắt buộc bị thiếu/sai. Baseline chưa đo lại và target chưa được chứng minh đạt. |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI chỉ tạo bản nháp từ bộ tài liệu được cung cấp; nội dung thiếu, mâu thuẫn hoặc không tìm thấy phải được đánh dấu, không tự suy đoán hay thêm/bỏ yêu cầu. AI không được tự sửa đề, rubric hoặc bài làm; không tự phân công, gửi thông báo hay nộp bài. Trưởng nhóm/sinh viên điều phối phải kiểm checklist với toàn bộ tài liệu gốc, sửa các điểm sai và làm rõ nội dung còn thiếu trước khi phân công; thành viên xác nhận tiếp nhận phần việc. |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- Phản biện của AI: 40/17 phút là ước lượng của D3, không phải kết quả bấm giờ; không gộp các mốc phỏng vấn khác phạm vi; chưa đủ bằng chứng về bỏ sót/làm lại thường xuyên; phải tính đủ thời gian chọn/nhập nguồn, kiểm và sửa nháp; người dùng kiểm toàn bộ nguồn trước phân công. Nhóm đồng ý toàn bộ các điểm này. Đã điều chỉnh: giữ rõ nguồn và trạng thái số liệu, dùng ngân sách mục tiêu 19 phút cho phương án mới, bổ sung kiểm tra chất lượng và phương án quay về, đưa các ràng buộc đã ghi trong CP4 và quyết định kiểm nguồn của nhóm vào Boundary. Nhóm chưa khẳng định đạt target hoặc kiểm chứng được độ chính xác của AI; các kết quả này sẽ được ghi sau thử nghiệm.
 
 ---
 
